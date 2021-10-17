@@ -1,0 +1,306 @@
+{
+    "id": "that",
+    "metadata": {
+        "operation": "retrieve",
+        "provider": "Oxford University Press",
+        "schema": "RetrieveEntry"
+    },
+    "results": [
+        {
+            "id": "that",
+            "language": "en-gb",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/that_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "ðat"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "used to identify a specific person or thing observed or heard by the speaker"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "that's his wife over there"
+                                        },
+                                        {
+                                            "text": "hello, is that Ben?"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus1044450.011",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "referring to the more distant of two things near to the speaker (the other, if specified, being identified by ‘this’)"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "this is stronger than that"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus1044450.015"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "referring to a specific thing previously mentioned, known, or understood"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "that's a good idea"
+                                        },
+                                        {
+                                            "text": "what are we going to do about that?"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus1044450.017"
+                                },
+                                {
+                                    "definitions": [
+                                        "used in singling out someone or something and ascribing a distinctive feature to them"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "it is part of human nature to be attracted to that which is aesthetically pleasing"
+                                        },
+                                        {
+                                            "text": "his appearance was that of someone used to sleeping on the streets"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus1044450.019"
+                                },
+                                {
+                                    "definitions": [
+                                        "expressing strong agreement with a description just given"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "‘He's a fussy man.’ ‘He is that.’"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus1044450.021"
+                                },
+                                {
+                                    "definitions": [
+                                        "used instead of ‘which’, ‘who’, ‘whom’, or ‘when’ to introduce a defining clause, especially one essential to identification"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "the woman that owns the place"
+                                        },
+                                        {
+                                            "text": "the book that I've just written"
+                                        },
+                                        {
+                                            "text": "the year that Anna was born"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus1044450.030",
+                                    "pronunciations": [
+                                        {
+                                            "audioFile": "https://audio.oxforddictionaries.com/en/mp3/that_gb_1.mp3",
+                                            "dialects": [
+                                                "British English"
+                                            ],
+                                            "phoneticNotation": "IPA",
+                                            "phoneticSpelling": "ðat"
+                                        },
+                                        {
+                                            "audioFile": "https://audio.oxforddictionaries.com/en/mp3/that_gb_3.mp3",
+                                            "dialects": [
+                                                "British English"
+                                            ],
+                                            "phoneticNotation": "IPA",
+                                            "phoneticSpelling": "ðət"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "pronoun",
+                        "text": "Pronoun"
+                    },
+                    "text": "that"
+                },
+                {
+                    "entries": [
+                        {
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/that_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "ðat"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "to such a degree; so"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "I wouldn't go that far"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus1044450.047",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "used with a gesture to indicate size"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "it was that big, perhaps even bigger"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus1044450.050"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "very"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "I couldn't get out of the house fast enough, I was that embarrassed!"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus1044450.051"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "adverb",
+                        "text": "Adverb"
+                    },
+                    "text": "that"
+                },
+                {
+                    "entries": [
+                        {
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/that_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "ðat"
+                                },
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/that_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "ðat"
+                                },
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/that_gb_3.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "ðət"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "introducing a subordinate clause expressing a statement or hypothesis"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "she said that she was satisfied"
+                                        },
+                                        {
+                                            "text": "it is possible that we have misunderstood"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus1044450.056",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "expressing a reason or cause"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "he seemed pleased that I wanted to continue"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus1044450.059"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "expressing a result"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "she was so tired that she couldn't think"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus1044450.060"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "expressing a purpose, hope, or intention"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "we pray that the coming year may be a year of peace"
+                                                },
+                                                {
+                                                    "text": "I eat that I may live"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus1044450.061"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "expressing a wish or regret"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "oh that he could be restored to health"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus1044450.063"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "conjunction",
+                        "text": "Conjunction"
+                    },
+                    "text": "that"
+                }
+            ],
+            "type": "headword",
+            "word": "that"
+        }
+    ],
+    "word": "that"
+}

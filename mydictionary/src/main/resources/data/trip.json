@@ -1,0 +1,384 @@
+{
+    "id": "trip",
+    "metadata": {
+        "operation": "retrieve",
+        "provider": "Oxford University Press",
+        "schema": "RetrieveEntry"
+    },
+    "results": [
+        {
+            "id": "trip",
+            "language": "en-gb",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "homographNumber": "100",
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/trip_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "trɪp"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "catch one's foot on something and stumble or fall"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "he tripped over his cat"
+                                        },
+                                        {
+                                            "text": "she tripped up during the penultimate lap"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus1075570.008",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "cause to stumble and fall"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "she shot out her foot to trip him up"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus1075570.014"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "make a mistake"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "taxpayers often trip up by not declaring taxable income"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus1075570.015"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "detect or expose someone in a mistake or inconsistency"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "the man was determined to trip him up on his economics"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus1075570.016"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "walk, run, or dance with quick light steps"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "they tripped up the terrace steps"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus1075570.018",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "(of words) flow lightly and easily"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "a name which trips off the tongue"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus1075570.019"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "activate (a mechanism), especially by contact with a switch, catch, or other electrical device"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "somebody tripped the alarm"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus1075570.021",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "(of part of an electric circuit) disconnect automatically as a safety measure"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "the plugs will trip as soon as any change in current is detected"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus1075570.022"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "release and raise (an anchor) from the seabed by means of a cable."
+                                    ],
+                                    "id": "m_en_gbus1075570.024",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "turn (a yard or other object) from a horizontal to a vertical position for lowering."
+                                            ],
+                                            "id": "m_en_gbus1075570.025"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "experience hallucinations induced by taking a psychedelic drug, especially LSD"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "a couple of boys were tripping"
+                                        },
+                                        {
+                                            "text": "he smoked weed and tripped out on acid"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus1075570.027",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "be behaving in an irrational or crazy way"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "you're tripping if you think I'm hanging around"
+                                                },
+                                                {
+                                                    "text": "I would like to know if I'm the one who's trippin' or if it's him"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus1075570.028"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "go on a short journey"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "when tripping through the Yukon take some time to explore our museums"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus1075570.030"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "verb",
+                        "text": "Verb"
+                    },
+                    "text": "trip"
+                },
+                {
+                    "entries": [
+                        {
+                            "homographNumber": "101",
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/trip_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "trɪp"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "a journey or excursion, especially for pleasure"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "Sammy's gone on a school trip"
+                                        },
+                                        {
+                                            "text": "a trip to America"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus1075570.033",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "the distance from start to finish of a race"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "the dog clocked a tremendous 27.47 secs for the 450 metres trip"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus1075570.036"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "a stumble or fall due to catching one's foot on something"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "trips and falls cause nearly half of all accidents"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus1075570.039",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "a mistake"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "an occasional trip in the performance"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus1075570.040"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "a hallucinatory experience caused by taking a psychedelic drug, especially LSD"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "acid trips"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus1075570.042",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "an exciting or stimulating experience"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "it was quite a trip talking to you"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus1075570.043"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "a self-indulgent attitude or activity"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "I'm not sure if she really liked me or if I was just part of her power trip"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus1075570.044"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "a device that activates or disconnects a mechanism, circuit, etc."
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "a trip mechanism"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus1075570.046"
+                                },
+                                {
+                                    "definitions": [
+                                        "a light, lively movement of a person's feet"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "yonder comes Dalinda; I know her by her trip"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus1075570.049"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "noun",
+                        "text": "Noun"
+                    },
+                    "text": "trip"
+                }
+            ],
+            "type": "headword",
+            "word": "trip"
+        },
+        {
+            "id": "trip",
+            "language": "en-gb",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "homographNumber": "200",
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/trip_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "trɪp"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "a flock or group of goats, sheep, or other animals"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "she exchanged her cows for a trip of goats"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus1075580.003"
+                                },
+                                {
+                                    "definitions": [
+                                        "a small flock of wildfowl"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "a small trip of dotterel alighted on the cricket field"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus1075580.005"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "noun",
+                        "text": "Noun"
+                    },
+                    "text": "trip"
+                }
+            ],
+            "type": "headword",
+            "word": "trip"
+        }
+    ],
+    "word": "trip"
+}

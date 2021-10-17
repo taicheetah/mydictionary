@@ -1,0 +1,201 @@
+{
+    "id": "think",
+    "metadata": {
+        "operation": "retrieve",
+        "provider": "Oxford University Press",
+        "schema": "RetrieveEntry"
+    },
+    "results": [
+        {
+            "id": "think",
+            "language": "en-gb",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/think_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "θɪŋk"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "have a particular opinion, belief, or idea about someone or something"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "she thought that nothing would be the same again"
+                                        },
+                                        {
+                                            "notes": [
+                                                {
+                                                    "text": "\"be thought\"",
+                                                    "type": "wordFormNote"
+                                                }
+                                            ],
+                                            "text": "it's thought he may have collapsed from shock"
+                                        },
+                                        {
+                                            "notes": [
+                                                {
+                                                    "text": "with infinitive",
+                                                    "type": "grammaticalNote"
+                                                }
+                                            ],
+                                            "text": "up to 300 people were thought to have died"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus1047450.011",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "used in questions to express anger or surprise"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "what do you think you're doing?"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus1047450.018"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "used in speech to reduce the force of a statement, or to politely suggest or refuse something"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "I thought we could go out for a meal"
+                                                },
+                                                {
+                                                    "text": "I'll be getting on, I think—thanks for the chat"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus1047450.019"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "direct one's mind towards someone or something; use one's mind actively to form connected ideas"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "he was thinking about Colin"
+                                        },
+                                        {
+                                            "text": "Jack thought for a moment"
+                                        },
+                                        {
+                                            "notes": [
+                                                {
+                                                    "text": "with object",
+                                                    "type": "grammaticalNote"
+                                                }
+                                            ],
+                                            "text": "any writer who so rarely produces a book is not thinking deep thoughts"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus1047450.021",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "have a particular mental attitude or approach"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "he thought like a general"
+                                                },
+                                                {
+                                                    "text": "one should always think positive"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus1047450.022"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "have sufficient foresight or awareness to do something"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "I hadn't thought to warn Rachel about him"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus1047450.026"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "imagine or expect (an actual or possible situation)"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "think of being paid a salary to hunt big game!"
+                                                },
+                                                {
+                                                    "text": "I never thought we'd raise so much money"
+                                                },
+                                                {
+                                                    "text": "I can't think where she's gone"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus1047450.027"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "verb",
+                        "text": "Verb"
+                    },
+                    "text": "think"
+                },
+                {
+                    "entries": [
+                        {
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/think_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "θɪŋk"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "an act of thinking"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "I went for a walk to have a think"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus1047450.031"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "noun",
+                        "text": "Noun"
+                    },
+                    "text": "think"
+                }
+            ],
+            "type": "headword",
+            "word": "think"
+        }
+    ],
+    "word": "think"
+}

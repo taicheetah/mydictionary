@@ -1,0 +1,141 @@
+{
+    "id": "coin",
+    "metadata": {
+        "operation": "retrieve",
+        "provider": "Oxford University Press",
+        "schema": "RetrieveEntry"
+    },
+    "results": [
+        {
+            "id": "coin",
+            "language": "en-gb",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/coin_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "kɔɪn"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "a flat disc or piece of metal with an official stamp, used as money"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "she opened her purse and took out a coin"
+                                        },
+                                        {
+                                            "text": "gold and silver coins"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0198050.005",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "money in the form of coins"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "large amounts of coin and precious metal"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0198050.008"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "one of the suits in some tarot packs, corresponding to pentacles in others."
+                                            ],
+                                            "id": "m_en_gbus0198050.011"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "noun",
+                        "text": "Noun"
+                    },
+                    "text": "coin"
+                },
+                {
+                    "entries": [
+                        {
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/coin_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "kɔɪn"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "make (coins) by stamping metal"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "guineas and half-guineas were coined"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0198050.015",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "make (metal) into coins."
+                                            ],
+                                            "id": "m_en_gbus0198050.021"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "earn a lot of (money) quickly and easily"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "the company was coining it in at the rate of £90 a second"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0198050.022"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "invent (a new word or phrase)"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "he coined the term ‘desktop publishing’"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0198050.024"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "verb",
+                        "text": "Verb"
+                    },
+                    "text": "coin"
+                }
+            ],
+            "type": "headword",
+            "word": "coin"
+        }
+    ],
+    "word": "coin"
+}

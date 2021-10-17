@@ -1,0 +1,88 @@
+{
+    "id": "tiger",
+    "metadata": {
+        "operation": "retrieve",
+        "provider": "Oxford University Press",
+        "schema": "RetrieveEntry"
+    },
+    "results": [
+        {
+            "id": "tiger",
+            "language": "en-gb",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/tiger_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "ˈtʌɪɡə"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "a very large solitary cat with a yellow-brown coat striped with black, native to the forests of Asia but becoming increasingly rare."
+                                    ],
+                                    "id": "m_en_gbus1053470.006",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "used to refer to someone fierce, determined, or ambitious"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "despite his wound, he still fought like a tiger"
+                                                },
+                                                {
+                                                    "text": "one of the sport's young tigers"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus1053470.010"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "a dynamic economy of one of the smaller East Asian countries, especially that of Singapore, Taiwan, or South Korea."
+                                            ],
+                                            "id": "m_en_gbus1053470.011"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "a person with an insatiable appetite for something"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "I'm a tiger for a bargain"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus1053470.015"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "used in names of tiger moths and striped butterflies, e.g. scarlet tiger, plain tiger."
+                                    ],
+                                    "id": "m_en_gbus1053470.017"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "noun",
+                        "text": "Noun"
+                    },
+                    "text": "tiger"
+                }
+            ],
+            "type": "headword",
+            "word": "tiger"
+        }
+    ],
+    "word": "tiger"
+}

@@ -1,0 +1,89 @@
+{
+    "id": "tiny",
+    "metadata": {
+        "operation": "retrieve",
+        "provider": "Oxford University Press",
+        "schema": "RetrieveEntry"
+    },
+    "results": [
+        {
+            "id": "tiny",
+            "language": "en-gb",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/tiny_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "ˈtʌɪni"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "very small"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "a tiny hummingbird"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus1056190.007"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "adjective",
+                        "text": "Adjective"
+                    },
+                    "text": "tiny"
+                },
+                {
+                    "entries": [
+                        {
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/tiny_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "ˈtʌɪni"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "a very young child"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "books that will make tinies and parents laugh out loud"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus1056190.012"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "noun",
+                        "text": "Noun"
+                    },
+                    "text": "tiny"
+                }
+            ],
+            "type": "headword",
+            "word": "tiny"
+        }
+    ],
+    "word": "tiny"
+}

@@ -1,0 +1,163 @@
+{
+    "id": "reveal",
+    "metadata": {
+        "operation": "retrieve",
+        "provider": "Oxford University Press",
+        "schema": "RetrieveEntry"
+    },
+    "results": [
+        {
+            "id": "reveal",
+            "language": "en-gb",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "homographNumber": "100",
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/reveal_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "rɪˈviːl"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "make (previously unknown or secret information) known to others"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "Brenda was forced to reveal Robbie's whereabouts"
+                                        },
+                                        {
+                                            "notes": [
+                                                {
+                                                    "text": "with clause",
+                                                    "type": "grammaticalNote"
+                                                }
+                                            ],
+                                            "text": "he revealed that he had received death threats"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0868890.005",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "cause or allow (something) to be seen"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "the clouds were breaking up to reveal a clear blue sky"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0868890.011"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "make (something) known to humans by divine or supernatural means"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "the truth revealed at the Incarnation"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0868890.012"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "verb",
+                        "text": "Verb"
+                    },
+                    "text": "reveal"
+                },
+                {
+                    "entries": [
+                        {
+                            "homographNumber": "101",
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/reveal_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "rɪˈviːl"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "(in a film or television programme) a final revelation of information that has previously been kept from the characters or viewers"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "the big reveal at the end of the movie answers all questions"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0868890.014"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "noun",
+                        "text": "Noun"
+                    },
+                    "text": "reveal"
+                }
+            ],
+            "type": "headword",
+            "word": "reveal"
+        },
+        {
+            "id": "reveal",
+            "language": "en-gb",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "homographNumber": "200",
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/reveal_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "rɪˈviːl"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "either side surface of an aperture in a wall for a door or window."
+                                    ],
+                                    "id": "m_en_gbus0868900.005"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "noun",
+                        "text": "Noun"
+                    },
+                    "text": "reveal"
+                }
+            ],
+            "type": "headword",
+            "word": "reveal"
+        }
+    ],
+    "word": "reveal"
+}

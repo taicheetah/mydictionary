@@ -1,0 +1,57 @@
+{
+    "id": "computer",
+    "metadata": {
+        "operation": "retrieve",
+        "provider": "Oxford University Press",
+        "schema": "RetrieveEntry"
+    },
+    "results": [
+        {
+            "id": "computer",
+            "language": "en-gb",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/computer_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "kəmˈpjuːtə"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "an electronic device for storing and processing data, typically in binary form, according to instructions given to it in a variable program."
+                                    ],
+                                    "id": "m_en_gbus0207340.005",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "a person who makes calculations, especially with a calculating machine."
+                                            ],
+                                            "id": "m_en_gbus0207340.008"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "noun",
+                        "text": "Noun"
+                    },
+                    "text": "computer"
+                }
+            ],
+            "type": "headword",
+            "word": "computer"
+        }
+    ],
+    "word": "computer"
+}

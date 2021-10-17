@@ -1,0 +1,206 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="head :: head_fragment(title='My Dictionary - Word List')">
+
+</head>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script th:src="@{/js/list-words.js}"></script>
+</head>
+
+<body>
+<div th:replace="header :: header_fragment(wordList)"></div>
+
+<div class="container mt-5 mb-5">
+		
+	<form action="#" th:action="@{/word/filter}" th:object="${filterForm}" method="GET"> 
+	
+		<button
+		  class="btn btn-sm btn-primary"
+		  type="button"
+		  data-mdb-toggle="collapse"
+		  data-mdb-target="#collapseFilter"
+		  aria-expanded="false"
+		  aria-controls="collapseExample"
+		>
+		  <i class="fa fa-filter"></i>
+		</button>
+
+		<div class="collapse mt-3" id="collapseFilter">
+			<table class="table table-borderless mb-0">
+				<tbody>
+					<tr>
+						<td>
+							<div class="input-group rounded mb-2">
+							  <input type="text" th:field="*{filterWord}" class="form-control rounded" placeholder="Word" aria-label="Search"
+							  aria-describedby="search-addon" />
+							</div>
+						</td>
+						<td>
+							<div class="input-group rounded mb-2">
+							  <input type="date" th:field="*{filterDate}" class="form-control rounded" placeholder="Search" aria-label="Search"
+							  aria-describedby="search-addon" />
+							</div>
+						</td>
+						<td>
+							<div class="input-group rounded mb-2">
+							<select th:field="*{rememberFlg}" class="form-select" aria-label="Default select example">
+							  <option value=false>Not remember</option>
+							  <option value=true>Remember</option>
+							  <option value="">Both</option>
+							</select>
+							</div>
+						</td>
+						<td>
+							<button type="submit" class="btn btn-primary">
+							    Filter  <i class="fa fa-filter"></i>
+							</button>
+						</td>
+					</tr>
+				</tbody>
+			</table>	
+		</div>
+	</form>
+		
+	<form action="#" th:action="@{/word/update}" method="POST"> 
+	
+		<div class="col-md-12 text-center mt-2 mb-1">
+			<button type="submit" name="Update" class="btn btn-warning">Update</button>
+		</div>
+		
+		<table class="table table-bordered table-striped">
+			<thead>
+				<tr style="border: 0px none;">
+					<th style="border: 0px none;">
+
+					</th>
+					<th style="border: 0px none;">
+					</th>
+					<th style="border: 0px none;">
+					</th>
+					<th style="border: 0px none;">
+					</th>
+				</tr>
+				<tr>
+					<th>
+						<span>Word</span>
+						<a th:href="@{/word/list(pageNumber=0, sortAttribute=user_WordId.wordName, descending=false)}" style="text-decoration:none;">
+							▲
+						</a>
+						<a th:href="@{/word/list(pageNumber=0, sortAttribute=user_WordId.wordName, descending=true)}" style="text-decoration:none;">
+							▼
+						</a>
+					</th>
+					<th>
+						<span>
+							Definition & Example&emsp;
+						</span>
+						<div class="form-check form-switch d-inline-block">
+						  <input class="form-check-input" type="checkbox" id="hideDefinitionSwitch" />
+						  <label class="form-check-label" for="hideDefinitionSwitch"
+						    >Hide</label
+						  >
+						</div>
+					</th>
+					<th>						
+						<span>Date</span>
+							<a th:href="@{/word/list(pageNumber=0, sortAttribute=dateTime, descending=false)}" style="text-decoration:none;">
+								▲
+							</a>
+							<a th:href="@{/word/list(pageNumber=0, sortAttribute=dateTime	, descending=true)}" style="text-decoration:none;">
+								▼
+							</a>					
+					</th>
+					<th>Remember?</th>
+				</tr>
+			</thead>
+	
+			<tbody>
+				<tr th:if="${user.user_Words.size == 0}">
+					<td colspan="4" align="center">
+						NO DATA
+					</td>
+				</tr>
+				<tr th:each="tempUser_Word, status : ${user.user_Words}">
+				
+					<td>
+						<h2 th:text="${tempUser_Word.word.wordName}" ></h2>
+						<p th:text="'[' + ${tempUser_Word.word.phoneticSpelling}  + ']' " />
+						<audio controls th:src="${tempUser_Word.word.audio_url}" th:if="*{tempUser_Word.word.audio_url}" ></audio>
+					</td>
+					<td>
+						<div th:id="definition + ${status.index}">
+							<div th:each="tempDefinition: ${tempUser_Word.word.definitions}" class="mb-4">
+								<p th:text="'[' + ${tempDefinition.definitionId.lexicalCategory}+ '] ' + ${tempDefinition.definition} " class="mb-1"></p>
+								<i th:text="'\'' + ${tempDefinition.example} + '\''" th:if="${not #strings.isEmpty(tempDefinition.example)}"></i>
+							</div>
+						</div>
+					</td>
+					<!-- <td th:text="${#dates.format(tempUser_Word.getZonedDateTime(user.timeZone), 'dd/MM/yyyy')}"/> -->
+					<td th:text="${tempUser_Word.getViewDateTime(user.timeZone)}"/>
+					<td>
+						<div class="form-check">
+							<input type="checkbox" class="form-check-input" th:attr="name='user_Words[' + __${status.index}__ + '].rememberFlg'" th:checked="${tempUser_Word.rememberFlg}" style="cursor: pointer;"/>
+						</div>
+						<input type="hidden" th:attr="name='user_Words[' + __${status.index}__ + '].user_WordId.userId'" th:value="${tempUser_Word.user_WordId.userId}" />
+						<input type="hidden" th:attr="name='user_Words[' + __${status.index}__ + '].user_WordId.wordName'" th:value="${tempUser_Word.user_WordId.wordName}" />
+					</td>
+					
+					<!-- Add update button/link -->
+					
+				</tr>
+			</tbody>
+	
+		</table>
+	
+		<nav aria-label="..." th:if="${page.totalPages != 0}">
+			<ul class="pagination">
+				<li class="page-item">
+					<a class="page-link" th:href="@{/word/list(pageNumber=0, sortAttribute=${sortAttribute} , descending=${descending})}" aria-label="Previous">
+			        	<span aria-hidden="true">&laquo;</span>
+			      	</a>
+				</li>
+				<li th:each='i : ${#numbers.sequence(0, page.totalPages-1)}' class="page-item" th:classappend="${(page.number == i) ? 'active':''}" th:if="${page.totalPages} lt 5">
+					<a class="page-link" th:href="@{/word/list(pageNumber=${i}, sortAttribute=${sortAttribute} , descending=${descending})}" th:text="${i+1}"></a>
+				</li>
+ 				<li th:each='i : ${#numbers.sequence(0, 4)}' class="page-item" th:classappend="${(page.number == i) ? 'active':''}" th:if="${(page.totalPages ge 5) && (page.number lt 2)}">
+					<a class="page-link" th:href="@{/word/list(pageNumber=${i}, sortAttribute=${sortAttribute} , descending=${descending})}" th:text="${i+1}"></a>
+				</li>
+				
+				<li th:if="${(page.totalPages ge 5) && (page.number gt 2)}">
+					...
+				</li>
+				<li th:each='i : ${#numbers.sequence(page.number-2, page.number+2)}' class="page-item" th:classappend="${(page.number == i) ? 'active':''}" th:if="${(page.totalPages ge 5) && (page.number ge 2 && page.number lt page.totalPages - 3)}">
+					<a class="page-link" th:href="@{/word/list(pageNumber=${i}, sortAttribute=${sortAttribute} , descending=${descending})}" th:text="${i+1}"></a>
+				</li>
+				<li th:each='i : ${#numbers.sequence(page.totalPages-5, page.totalPages-1)}' class="page-item" th:classappend="${(page.number == i) ? 'active':''}" th:if="${(page.totalPages ge 5) && (page.number ge page.totalPages -3)}">
+					<a class="page-link" th:href="@{/word/list(pageNumber=${i}, sortAttribute=${sortAttribute} , descending=${descending})}" th:text="${i+1}"></a>
+				</li>
+				<li th:if="${(page.totalPages ge 5) && (page.number lt page.totalPages - 3)}">
+					...
+				</li>
+				
+				<li class="page-item">
+			     	<a class="page-link" th:href="@{/word/list(pageNumber=${page.totalPages-1}, sortAttribute=${sortAttribute} , descending=${descending})}" aria-label="Next">
+			        	<span aria-hidden="true">&raquo;</span>
+			      	</a>
+			    </li>
+			</ul>
+		</nav>
+		
+				
+		<div class="col-md-12 text-center mt-2 mb-1">
+			<button type="submit" name="Update" class="btn btn-warning">Update</button>
+		</div>
+		
+	</form>
+			
+			<a th:href="@{/word/showSearchWordForm}"
+				class="btn btn-secondary btn-sm mt-4 mb-4">
+				Move to search word
+			</a>
+</div>
+
+</body>
+</html>

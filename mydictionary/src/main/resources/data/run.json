@@ -1,0 +1,1008 @@
+{
+    "id": "run",
+    "metadata": {
+        "operation": "retrieve",
+        "provider": "Oxford University Press",
+        "schema": "RetrieveEntry"
+    },
+    "results": [
+        {
+            "id": "run",
+            "language": "en-gb",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/run_gb_3.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "rʌn"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "move at a speed faster than a walk, never having both or all the feet on the ground at the same time"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "the dog ran across the road"
+                                        },
+                                        {
+                                            "text": "she ran the last few yards, breathing heavily"
+                                        },
+                                        {
+                                            "text": "he hasn't paid for his drinks—run and catch him"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0888500.013",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "run as a sport or for exercise"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "I run every morning"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0888500.019"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "(of an athlete or a racehorse) compete in a race"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "she ran in the 200 metres"
+                                                },
+                                                {
+                                                    "text": "Dave has run 42 marathons"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0888500.020"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "enter (a racehorse) for a race"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "I'm hoping to run him in the Portland Handicap"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0888500.021"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "move about in a hurried and hectic way"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "I've spent the whole day running round after the kids"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0888500.022"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "(of a batsman) run from one wicket to the other in scoring or attempting to score a run."
+                                            ],
+                                            "id": "m_en_gbus0888500.023"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "chase (someone) away"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "Ah went tuh eat the mangoes but the people run mih"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0888500.024"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "(of hounds) chase or hunt their quarry"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "the hounds are running"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0888500.025"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "(of a boat) sail straight and fast directly before the wind"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "we slanted across to the far bank and ran before the wind"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0888500.026"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "(of a migratory fish) go upriver from the sea in order to spawn."
+                                            ],
+                                            "id": "m_en_gbus0888500.027"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "pass or cause to pass quickly in a particular direction"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "notes": [
+                                                {
+                                                    "text": "no object, with adverbial of direction",
+                                                    "type": "grammaticalNote"
+                                                }
+                                            ],
+                                            "text": "the rumour ran through the pack of photographers"
+                                        },
+                                        {
+                                            "notes": [
+                                                {
+                                                    "text": "with object and adverbial of direction",
+                                                    "type": "grammaticalNote"
+                                                }
+                                            ],
+                                            "text": "Helen ran her fingers through her hair"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0888500.029",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "move or cause to move forcefully or with a particular result"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "the tanker ran aground off the Shetlands"
+                                                },
+                                                {
+                                                    "text": "a woman ran a pushchair into the back of my legs"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0888500.030"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "fail to stop at (a red traffic light)"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "cameras triggered by cars running red lights at intersections"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0888500.031"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "navigate (rapids or a waterfall) in a boat"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "the boats were preparing to run the big rapids"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0888500.032"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "(with reference to a liquid) flow or cause to flow"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "notes": [
+                                                {
+                                                    "text": "no object, with adverbial of direction",
+                                                    "type": "grammaticalNote"
+                                                }
+                                            ],
+                                            "text": "a small river runs into the sea at one side of the castle"
+                                        },
+                                        {
+                                            "notes": [
+                                                {
+                                                    "text": "with object",
+                                                    "type": "grammaticalNote"
+                                                }
+                                            ],
+                                            "text": "she ran cold water into a basin"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0888500.034",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "cause water to flow over"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "I ran my hands under the tap"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0888500.035"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "fill (a bath) with water"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "she ran a bath and lowered herself into the water"
+                                                },
+                                                {
+                                                    "text": "I'll run you a nice hot bath"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0888500.036"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "emit or exude a liquid"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "she was weeping and her nose was running"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0888500.038"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "(of a solid substance) melt and become fluid"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "it was so hot that the butter ran"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0888500.039"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "(of the sea, the tide, or a river) rise higher or flow more quickly"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "there was still a heavy sea running"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0888500.040"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "(of dye or colour in fabric or paper) dissolve and spread when the fabric or paper becomes wet"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "the red dye ran when the socks were washed"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0888500.041"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "extend or cause to extend in a particular direction"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "notes": [
+                                                {
+                                                    "text": "no object, with adverbial of direction",
+                                                    "type": "grammaticalNote"
+                                                }
+                                            ],
+                                            "text": "cobbled streets run down to a tiny harbour"
+                                        },
+                                        {
+                                            "notes": [
+                                                {
+                                                    "text": "with object and adverbial of direction",
+                                                    "type": "grammaticalNote"
+                                                }
+                                            ],
+                                            "text": "he ran a wire under the carpet"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0888500.043",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "pass into or reach a specified state or level"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "inflation is running at 11 per cent"
+                                                },
+                                                {
+                                                    "text": "the decision ran counter to previous government commitments"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0888500.044"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "(of a bus, train, ferry, or other form of transport) make a regular journey on a particular route"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "buses run into town every half hour"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0888500.046",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "put (a form of public transport) in service"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "the group is drawing up plans to run trains on key routes"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0888500.047"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "take (someone) somewhere in a car"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "I'll run you home"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0888500.048"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "be in charge of; manage"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "Andrea runs her own catering business"
+                                        },
+                                        {
+                                            "notes": [
+                                                {
+                                                    "text": "as adjective, in combination \"-run\"",
+                                                    "type": "wordFormNote"
+                                                }
+                                            ],
+                                            "text": "an attractive family-run hotel"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0888500.050",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "(of a system, organization, or plan) operate or proceed in a particular way"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "everything's running according to plan"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0888500.051"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "organize, implement, or carry out"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "we decided to run a series of seminars"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0888500.052"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "own, maintain, and use (a vehicle)"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "he could no longer afford to run a car"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0888500.054"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "be in or cause to be in operation; function or cause to function"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "notes": [
+                                                {
+                                                    "text": "no object",
+                                                    "type": "grammaticalNote"
+                                                }
+                                            ],
+                                            "text": "the car runs on unleaded fuel"
+                                        },
+                                        {
+                                            "notes": [
+                                                {
+                                                    "text": "with object",
+                                                    "type": "grammaticalNote"
+                                                }
+                                            ],
+                                            "text": "the modem must be run off a mains transformer"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0888500.056",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "move or cause to move between the spools of a recording machine"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "I ran the tape back"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0888500.057"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "continue or be valid or operative for a particular period of time"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "the course ran for two days"
+                                        },
+                                        {
+                                            "text": "this particular debate will run and run"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0888500.059",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "happen or arrive at the specified time"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "the programme was running fifteen minutes late"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0888500.060"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "(of a play or exhibition) be staged or presented"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "the play ran at Stratford last year"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0888500.061"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "stand as a candidate in an election"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "he announced that he intended to run for President"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0888500.063",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "(especially of a political party) sponsor (a candidate) in an election"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "they ran their first independent candidate at the Bromley by-election"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0888500.064"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "publish or be published in a newspaper or magazine"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "notes": [
+                                                {
+                                                    "text": "with object",
+                                                    "type": "grammaticalNote"
+                                                }
+                                            ],
+                                            "text": "the tabloid press ran the story"
+                                        },
+                                        {
+                                            "notes": [
+                                                {
+                                                    "text": "no object",
+                                                    "type": "grammaticalNote"
+                                                }
+                                            ],
+                                            "text": "when the story ran, there was a big to-do"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0888500.066",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "(of a saying, argument, piece of writing, etc.) have a specified wording"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "‘Tapestries slashed!’ ran the dramatic headline"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0888500.067"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "bring (goods) into a country illegally and secretly; smuggle"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "they run drugs for the cocaine cartels"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0888500.069"
+                                },
+                                {
+                                    "definitions": [
+                                        "cost (someone) (a specified amount)"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "a new photocopier will run us about $1,300"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0888500.071"
+                                },
+                                {
+                                    "definitions": [
+                                        "(of a stocking or pair of tights) develop a ladder."
+                                    ],
+                                    "id": "m_en_gbus0888500.073"
+                                },
+                                {
+                                    "definitions": [
+                                        "provide"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "the wait-and-see game continues until the government runs some ready cash"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0888500.075",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "provide pasture for (sheep or cattle); raise (livestock)"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "they ran sheep and cattle"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0888500.076"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "verb",
+                        "text": "Verb"
+                    },
+                    "text": "run"
+                },
+                {
+                    "entries": [
+                        {
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/run_gb_3.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "rʌn"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "an act or spell of running"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "I usually go for a run in the morning"
+                                        },
+                                        {
+                                            "text": "a cross-country run"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0888500.079",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "a running pace"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "Rory set off at a run"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0888500.082"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "an annual mass migration of fish up or down a river"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "the annual salmon runs"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0888500.084"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "a journey accomplished or route taken by a vehicle, aircraft, or boat, especially on a regular basis"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "the London–Liverpool run"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0888500.086",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "a short excursion made in a car"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "we could take a run out to the country"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0888500.087"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "the distance covered in a specified period, especially by a ship"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "a record run of 398 miles from noon to noon"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0888500.088"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "a short flight made by an aircraft on a straight and even course at a constant speed before or while dropping bombs"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "bombing runs by B52s"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0888500.089"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "an opportunity or attempt to achieve something"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "their absence means the Russians will have a clear run at the title"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0888500.091",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "a preliminary test of a procedure or system"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "if you are styling your hair yourself, have a practice run"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0888500.092"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "an attempt to secure election to political office"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "his run for the Republican nomination"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0888500.093"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "a continuous spell of a particular situation or condition"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "he's had a run of bad luck"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0888500.095",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "a continuous series of performances"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "the play had a long run in the West End"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0888500.096"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "a quantity or amount of something produced at one time"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "a production run of only 150 cars"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0888500.097"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "a continuous stretch or length of something"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "long runs of copper piping"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0888500.098"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "a rapid series of musical notes forming a scale."
+                                            ],
+                                            "id": "m_en_gbus0888500.099"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "a sequence of cards of the same suit."
+                                            ],
+                                            "id": "m_en_gbus0888500.100"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "a widespread and sudden demand for (a commodity) or a widespread trading in (a currency)"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "there's been a big run on nostalgia toys this year"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0888500.102",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "a sudden demand for repayment from (a bank) made by a large number of lenders"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "growing nervousness among investors led to a run on some banks"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0888500.103"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "the average or usual type of person or thing"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "the new trooper stood out from the general run of eager youth crowding to enlist"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0888500.105",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "the general tendency of something"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "quite against the run of play, Smith scored an early try"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0888500.106"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "a sloping snow-covered course or track used for skiing, bobsleighing, or tobogganing"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "a ski run"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0888500.108",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "a track made or regularly used by a particular animal"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "a badger run"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0888500.109"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "an enclosed area in which domestic animals or birds may run freely in the open"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "an excellent and safe guinea pig run"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0888500.111",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "a large open stretch of land used for pasture or the raising of stock"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "one of the richest cattle runs of the district"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0888500.112"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "free and unrestricted use of or access to"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "her cats were given the run of the house"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0888500.114"
+                                },
+                                {
+                                    "definitions": [
+                                        "a unit of scoring achieved by hitting the ball so that both batsmen are able to run between the wickets, or awarded in some other circumstances."
+                                    ],
+                                    "id": "m_en_gbus0888500.116",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "a point scored by the batter returning to home plate after touching the other bases."
+                                            ],
+                                            "id": "m_en_gbus0888500.117"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "a vertical line of unravelled stitches in stockings or tights; a ladder"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "she had a run in her nylons"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0888500.119"
+                                },
+                                {
+                                    "definitions": [
+                                        "a downward trickle of paint or a similar substance when applied too thickly"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "varnish should be applied with care to avoid runs and an uneven surface"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0888500.121",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "a small stream"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "a shallow run at the edge of a low rock"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0888500.122"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "diarrhoea."
+                                    ],
+                                    "id": "m_en_gbus0888500.124"
+                                },
+                                {
+                                    "definitions": [
+                                        "the after part of a ship's bottom where it rises and narrows towards the stern."
+                                    ],
+                                    "id": "m_en_gbus0888500.127"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "noun",
+                        "text": "Noun"
+                    },
+                    "text": "run"
+                }
+            ],
+            "type": "headword",
+            "word": "run"
+        }
+    ],
+    "word": "run"
+}

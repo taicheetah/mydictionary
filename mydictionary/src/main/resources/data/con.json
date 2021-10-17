@@ -1,0 +1,356 @@
+{
+    "id": "con",
+    "metadata": {
+        "operation": "retrieve",
+        "provider": "Oxford University Press",
+        "schema": "RetrieveEntry"
+    },
+    "results": [
+        {
+            "id": "con",
+            "language": "en-gb",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "homographNumber": "100",
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/xcon_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "kɒn"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "persuade (someone) to do or believe something by lying to them"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "I conned him into giving me your home number"
+                                        },
+                                        {
+                                            "text": "she was jailed for conning her aunt out of £500,000"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0207590.007"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "verb",
+                        "text": "Verb"
+                    },
+                    "text": "con"
+                },
+                {
+                    "entries": [
+                        {
+                            "homographNumber": "101",
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/xcon_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "kɒn"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "an instance of deceiving or tricking someone"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "the Charter is a glossy public relations con"
+                                        },
+                                        {
+                                            "text": "a con artist"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0207590.014"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "noun",
+                        "text": "Noun"
+                    },
+                    "text": "con"
+                }
+            ],
+            "type": "headword",
+            "word": "con"
+        },
+        {
+            "id": "con",
+            "language": "en-gb",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "homographNumber": "200",
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/xcon_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "kɒn"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "a disadvantage of or argument against something"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "borrowers have to weigh up the pros and cons of each mortgage offer"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0207600.005"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "noun",
+                        "text": "Noun"
+                    },
+                    "text": "con"
+                }
+            ],
+            "type": "headword",
+            "word": "con"
+        },
+        {
+            "id": "con",
+            "language": "en-gb",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "homographNumber": "300",
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/xcon_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "kɒn"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "a convict"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "you don't snitch to the prison authorities on another con"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0207610.005"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "noun",
+                        "text": "Noun"
+                    },
+                    "text": "con"
+                }
+            ],
+            "type": "headword",
+            "word": "con"
+        },
+        {
+            "id": "con",
+            "language": "en-gb",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "homographNumber": "400",
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/xcon_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "kɒn"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "study attentively or learn by heart (a piece of writing)"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "the children conned their pages with a great show of industry"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0207620.007"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "verb",
+                        "text": "Verb"
+                    },
+                    "text": "con"
+                }
+            ],
+            "type": "headword",
+            "word": "con"
+        },
+        {
+            "id": "con",
+            "language": "en-gb",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "homographNumber": "500",
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/xcon_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "kɒn"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "a convention, especially one for enthusiasts of science fiction and fantasy literature annd films"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "an SF con"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0207630.005"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "noun",
+                        "text": "Noun"
+                    },
+                    "text": "con"
+                }
+            ],
+            "type": "headword",
+            "word": "con"
+        },
+        {
+            "id": "con",
+            "language": "en-gb",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "homographNumber": "600",
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/xcon_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "kɒn"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "direct the steering of (a ship)"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "he hadn't conned anything bigger than a Boston whaler"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0207640.004"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "verb",
+                        "text": "Verb"
+                    },
+                    "text": "con"
+                },
+                {
+                    "entries": [
+                        {
+                            "homographNumber": "601",
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/xcon_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "kɒn"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "the action or post of conning a ship"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "Mr Cargill, take the con"
+                                        },
+                                        {
+                                            "text": "I quickly took the conn and restored the channel course"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0207640.013"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "noun",
+                        "text": "Noun"
+                    },
+                    "text": "con"
+                }
+            ],
+            "type": "headword",
+            "word": "con"
+        }
+    ],
+    "word": "con"
+}

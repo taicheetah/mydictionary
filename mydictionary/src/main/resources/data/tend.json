@@ -1,0 +1,173 @@
+{
+    "id": "tend",
+    "metadata": {
+        "operation": "retrieve",
+        "provider": "Oxford University Press",
+        "schema": "RetrieveEntry"
+    },
+    "results": [
+        {
+            "id": "tend",
+            "language": "en-gb",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "homographNumber": "100",
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/tend_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "tɛnd"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "regularly or frequently behave in a particular way or have a certain characteristic"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "written language tends to be formal"
+                                        },
+                                        {
+                                            "text": "her hair tended to come loose"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus1039030.005",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "be liable to possess or display (a particular characteristic)"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "Walter tended towards corpulence"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus1039030.011"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "go or move in a particular direction"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "fire is hot and tends upwards"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus1039030.012"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "(of a variable) approach a given quantity as a limit"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "the orbit tends to infinity"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus1039030.013"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "verb",
+                        "text": "Verb"
+                    },
+                    "text": "tend"
+                }
+            ],
+            "type": "headword",
+            "word": "tend"
+        },
+        {
+            "id": "tend",
+            "language": "en-gb",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "homographNumber": "200",
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/tend_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "tɛnd"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "care for or look after; give one's attention to"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "Varela tended plants on the roof"
+                                        },
+                                        {
+                                            "notes": [
+                                                {
+                                                    "text": "no object",
+                                                    "type": "grammaticalNote"
+                                                }
+                                            ],
+                                            "text": "ambulance crews were tending to the injured"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus1039040.005",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "direct or manage; work in"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "I've been tending bar at the airport lounge"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus1039040.011"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "wait on as an attendant or servant"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "the man that tended the carpenter"
+                                                },
+                                                {
+                                                    "text": "Enid tended on him there"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus1039040.012"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "verb",
+                        "text": "Verb"
+                    },
+                    "text": "tend"
+                }
+            ],
+            "type": "headword",
+            "word": "tend"
+        }
+    ],
+    "word": "tend"
+}

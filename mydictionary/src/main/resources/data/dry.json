@@ -1,0 +1,412 @@
+{
+    "id": "dry",
+    "metadata": {
+        "operation": "retrieve",
+        "provider": "Oxford University Press",
+        "schema": "RetrieveEntry"
+    },
+    "results": [
+        {
+            "id": "dry",
+            "language": "en-gb",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/dry_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "drʌɪ"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "free from moisture or liquid; not wet or moist"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "the jacket kept me warm and dry"
+                                        },
+                                        {
+                                            "text": "he wiped the table dry with his shirt"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0300300.008",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "(of paint, ink, etc.) having lost all wetness or moisture over a period of time"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "wait until the paint is dry"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0300300.012"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "for use without liquid"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "the conversion of dry latrines into the flushing type"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0300300.014"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "with little or no rainfall or humidity"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "the West Coast has had two dry winters in a row"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0300300.016"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "(of a river, lake, or stream) empty of water as a result of lack of rainfall"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "the river is always dry at this time of year"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0300300.017"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "(of a source) not yielding a supply of water or oil"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "a dry well"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0300300.018"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "thirsty or thirst-making"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "working in the hot sun is making me dry"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0300300.019"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "(of a cow or other domestic animal) no longer producing milk"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "the rye has been strip-grazed by dry cows"
+                                                },
+                                                {
+                                                    "text": "the cows went dry in the wintertime"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0300300.020"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "without grease or other moisturizer or lubricator"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "cream conditioners for dry hair"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0300300.021"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "(of bread or toast) without butter or other spreads"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "only dry bread and water"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0300300.022"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "(of noodles) not served in a soup, but in a sauce or with dry ingredients"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "customers can choose to have their noodles in the soup or opt for a dry version"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0300300.131"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "(of information, writing, etc.) dully factual"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "the dry facts of the matter"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0300300.025",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "unemotional, undemonstrative, or impassive"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "it transformed him from a dry administrator into the people's hero"
+                                                },
+                                                {
+                                                    "text": "Ralph gave me a dry, silent wave"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0300300.026"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "(of a joke or sense of humour) subtle and expressed in a matter-of-fact way"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "he delighted his friends with a dry, covert sense of humour"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0300300.028"
+                                },
+                                {
+                                    "definitions": [
+                                        "prohibiting the sale or consumption of alcoholic drink"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "the country is strictly dry, in accordance with Islamic law"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0300300.030",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "(of a person) no longer addicted to or drinking alcohol"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "I heard much talk about how sobriety was more than staying straight or dry"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0300300.031"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "(of an alcoholic drink) not sweet"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "a dry, medium-bodied red wine"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0300300.033"
+                                },
+                                {
+                                    "definitions": [
+                                        "relating to political ‘dries’; rigidly monetarist."
+                                    ],
+                                    "id": "m_en_gbus0300300.035"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "adjective",
+                        "text": "Adjective"
+                    },
+                    "text": "dry"
+                },
+                {
+                    "entries": [
+                        {
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/dry_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "drʌɪ"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "become dry"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "allow 24 hours for the paint to dry"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0300300.038",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "cause to become dry"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "they had washed and dried their hair"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0300300.044"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "wipe tears from (the eyes)"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "she dried her eyes and blew her nose"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0300300.045"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "preserve by allowing or encouraging evaporation of moisture from"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "I use several methods to dry the flowers and foliage I use in my arrangements"
+                                                },
+                                                {
+                                                    "text": "the natural sugars in the fruit will be concentrated when it is dried"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0300300.047"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "forget one's lines"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "a colleague of mine once dried in the middle of a scene"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0300300.049"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "verb",
+                        "text": "Verb"
+                    },
+                    "text": "dry"
+                },
+                {
+                    "entries": [
+                        {
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/dry_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "drʌɪ"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "the process or an instance of drying."
+                                    ],
+                                    "id": "m_en_gbus0300300.052"
+                                },
+                                {
+                                    "definitions": [
+                                        "a dry or covered place."
+                                    ],
+                                    "id": "m_en_gbus0300300.057",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "the dry season"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "the grass was yellowing and the dry had started"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0300300.058"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "a tract of waterless country"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "the forty-mile dry"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0300300.060"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "a Conservative politician (especially in the 1980s) in favour of strict monetarist policies."
+                                    ],
+                                    "id": "m_en_gbus0300300.062"
+                                },
+                                {
+                                    "definitions": [
+                                        "a person in favour of the prohibition of alcohol"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "evangelical dries had seen to it that the nearest bottle of whiskey was miles away"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0300300.064"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "noun",
+                        "text": "Noun"
+                    },
+                    "text": "dry"
+                }
+            ],
+            "type": "headword",
+            "word": "dry"
+        }
+    ],
+    "word": "dry"
+}

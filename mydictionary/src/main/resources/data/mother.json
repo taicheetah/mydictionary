@@ -1,0 +1,172 @@
+{
+    "id": "mother",
+    "metadata": {
+        "operation": "retrieve",
+        "provider": "Oxford University Press",
+        "schema": "RetrieveEntry"
+    },
+    "results": [
+        {
+            "id": "mother",
+            "language": "en-gb",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/mother_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "ˈmʌðə"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "a woman in relation to her child or children"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "his mother was a painter"
+                                        },
+                                        {
+                                            "text": "a mother of three"
+                                        },
+                                        {
+                                            "text": "she returned to Bristol to nurse her ageing mother"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0662670.008",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "a female animal in relation to its offspring"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "a mother penguin"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0662670.012"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "(especially as a form of address) an elderly woman."
+                                            ],
+                                            "id": "m_en_gbus0662670.013"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "an important female figure in the origin and early history of something"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "she will always be remembered as the mother of modern ecology"
+                                                },
+                                                {
+                                                    "text": "they are often referred to as the founding mothers of the Museum of Modern Art"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0662670.061"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "denoting an institution or organization from which others of the same type derive"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "the initiatives were based on the experience of the mother company"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0662670.015"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "(especially as a title or form of address) the head of a female religious community."
+                                            ],
+                                            "id": "m_en_gbus0662670.017"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "noun",
+                        "text": "Noun"
+                    },
+                    "text": "mother"
+                },
+                {
+                    "entries": [
+                        {
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/mother_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "ˈmʌðə"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "bring up (a child) with care and affection"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "she didn't know how to mother my brother and he was very sensitive"
+                                        },
+                                        {
+                                            "text": "he found a beautiful wife that mothered his children"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0662670.027",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "look after (someone) kindly and protectively, sometimes excessively so"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "she mothered her husband, insisting he should take cod liver oil in the winter"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0662670.033"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "give birth to"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "she's mothered two foals that have gone on to be impressive dressage competitors"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0662670.035"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "verb",
+                        "text": "Verb"
+                    },
+                    "text": "mother"
+                }
+            ],
+            "type": "headword",
+            "word": "mother"
+        }
+    ],
+    "word": "mother"
+}

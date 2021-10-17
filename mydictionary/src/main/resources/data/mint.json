@@ -1,0 +1,197 @@
+{
+    "id": "mint",
+    "metadata": {
+        "operation": "retrieve",
+        "provider": "Oxford University Press",
+        "schema": "RetrieveEntry"
+    },
+    "results": [
+        {
+            "id": "mint",
+            "language": "en-gb",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "homographNumber": "100",
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/mint_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "mɪnt"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "an aromatic plant native to temperate regions of the Old World, several kinds of which are used as culinary herbs"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "plant mint in a large pot with drainage holes"
+                                        },
+                                        {
+                                            "notes": [
+                                                {
+                                                    "text": "count noun",
+                                                    "type": "grammaticalNote"
+                                                }
+                                            ],
+                                            "text": "there are many other mints with distinct aromas"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0647050.006",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "the flavour of mint, especially peppermint"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "a tasty mint and chocolate flavoured cone"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0647050.019"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "a peppermint sweet"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "Dickie pulled out a packet of mints from his pocket"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0647050.022"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "noun",
+                        "text": "Noun"
+                    },
+                    "text": "mint"
+                }
+            ],
+            "type": "headword",
+            "word": "mint"
+        },
+        {
+            "id": "mint",
+            "language": "en-gb",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "homographNumber": "200",
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/mint_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "mɪnt"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "a place where money is coined, especially under state authority"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "die links between coins indicate that they were made at the same mint"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0647060.005",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "a large sum of money"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "the curtains had cost a mint"
+                                                },
+                                                {
+                                                    "text": "the bank made a mint from the upheaval in the money markets"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0647060.008"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "noun",
+                        "text": "Noun"
+                    },
+                    "text": "mint"
+                },
+                {
+                    "entries": [
+                        {
+                            "homographNumber": "202",
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/mint_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "mɪnt"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "make (a coin) by stamping metal"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "only coins of a relatively high denomination were minted"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0647060.014",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "produce for the first time"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "an example of newly minted technology"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0647060.020"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "verb",
+                        "text": "Verb"
+                    },
+                    "text": "mint"
+                }
+            ],
+            "type": "headword",
+            "word": "mint"
+        }
+    ],
+    "word": "mint"
+}

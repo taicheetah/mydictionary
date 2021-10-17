@@ -1,0 +1,212 @@
+{
+    "id": "travel",
+    "metadata": {
+        "operation": "retrieve",
+        "provider": "Oxford University Press",
+        "schema": "RetrieveEntry"
+    },
+    "results": [
+        {
+            "id": "travel",
+            "language": "en-gb",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/travel_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "ˈtrav(ə)l"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "go from one place to another, typically over a distance of some length"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "the vessel had been travelling from Libya to Ireland"
+                                        },
+                                        {
+                                            "text": "we travelled thousands of miles"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus1070950.010",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "go from one place to another through (a region)"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "he travelled the world with the army"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus1070950.021"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "go or be moved from place to place"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "the exhibition will travel to London, New York City, Cape Town, and Tokyo"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus1070950.022"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "withstand a journey without illness or impairment"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "he usually travels well, but he did get a bit upset on a very rough crossing"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus1070950.023"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "be successful away from the place of origin"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "accordion music travels well"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus1070950.024"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "go from place to place as a sales representative"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "he travelled for a wholesale wine firm, and had samples of numerous South Tyrolean wines in his case"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus1070950.025"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "(of an object or radiation) move, typically in a constant or predictable way"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "light travels faster than sound"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus1070950.027",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "(of a vehicle) move quickly."
+                                            ],
+                                            "id": "m_en_gbus1070950.028"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "take more than the allowed number of steps (typically two) while holding the ball without dribbling it."
+                                    ],
+                                    "id": "m_en_gbus1070950.030"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "verb",
+                        "text": "Verb"
+                    },
+                    "text": "travel"
+                },
+                {
+                    "entries": [
+                        {
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/travel_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "ˈtrav(ə)l"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "the action of travelling"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "my job involves a lot of travel"
+                                        },
+                                        {
+                                            "text": "the pass allows you unlimited travel on public transport"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus1070950.033",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "a period of time spent travelling from one place to another, typically over long distances"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "perhaps you'll write a book about your travels"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus1070950.035"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "(of a device) sufficiently compact for use while travelling"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "a travel iron"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus1070950.038"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "the range, rate, or mode of motion of a part of a machine"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "two proximity switches detect when the valve has reached the end of its travel"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus1070950.041"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "noun",
+                        "text": "Noun"
+                    },
+                    "text": "travel"
+                }
+            ],
+            "type": "headword",
+            "word": "travel"
+        }
+    ],
+    "word": "travel"
+}

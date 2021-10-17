@@ -1,0 +1,255 @@
+{
+    "id": "and",
+    "metadata": {
+        "operation": "retrieve",
+        "provider": "Oxford University Press",
+        "schema": "RetrieveEntry"
+    },
+    "results": [
+        {
+            "id": "and",
+            "language": "en-gb",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/and_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "ənd"
+                                },
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/and_gb_3.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "(ə)n"
+                                },
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/and_1_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "and"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "used to connect words of the same part of speech, clauses, or sentences, that are to be taken jointly"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "bread and butter"
+                                        },
+                                        {
+                                            "text": "they can read and write"
+                                        },
+                                        {
+                                            "text": "a hundred and fifty"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0031920.013",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "used to connect two clauses when the second refers to something that happens after the first"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "he turned round and walked out"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0031920.017"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "used to connect two clauses, the second of which refers to something that results from the first"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "there was a flash flood and by the next morning the town was under water"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0031920.018"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "connecting two identical comparatives, to emphasize a progressive change"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "getting better and better"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0031920.019"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "connecting two identical words, implying great duration or great extent"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "I cried and cried"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0031920.020"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "used to connect two identical words to indicate that things of the same name or class have different qualities"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "all human conduct is determined or caused—but there are causes and causes"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0031920.021"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "used to connect two numbers to indicate that they are being added together"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "six and four makes ten"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0031920.022"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "used to connect two numbers, implying succession"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "a line of men marching two and two"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0031920.023"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "used to introduce an additional comment or interjection"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "if it came to a choice—and this was the worst thing—she would turn her back on her parents"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0031920.025",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "used to introduce a question in connection with what someone else has just said"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "‘I found the letter in her bag.’ ‘And did you steam it open?’"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0031920.026"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "used to introduce a statement about a new topic"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "and now to the dessert"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0031920.027"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "used after some verbs and before another verb to indicate intention, instead of ‘to’"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "I would try and do what he said"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0031920.029"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "conjunction",
+                        "text": "Conjunction"
+                    },
+                    "text": "and"
+                },
+                {
+                    "entries": [
+                        {
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/and_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "ənd"
+                                },
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/and_gb_3.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "(ə)n"
+                                },
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/and_1_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "and"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "a Boolean operator which gives the value one if and only if all the operands are one, and otherwise has a value of zero."
+                                    ],
+                                    "id": "m_en_gbus0031920.032",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "a circuit which produces an output signal only when signals are received simultaneously through all input connections."
+                                            ],
+                                            "id": "m_en_gbus0031920.038"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "noun",
+                        "text": "Noun"
+                    },
+                    "text": "and"
+                }
+            ],
+            "type": "headword",
+            "word": "and"
+        }
+    ],
+    "word": "and"
+}

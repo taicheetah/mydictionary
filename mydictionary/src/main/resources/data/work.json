@@ -1,0 +1,538 @@
+{
+  "id": "work",
+  "metadata": {
+    "operation": "retrieve",
+    "provider": "Oxford University Press",
+    "schema": "RetrieveEntry"
+  },
+  "results": [
+    {
+      "id": "work",
+      "language": "en-gb",
+      "lexicalEntries": [
+        {
+          "entries": [
+            {
+              "pronunciations": [
+                {
+                  "audioFile": "https://audio.oxforddictionaries.com/en/mp3/work_gb_1.mp3",
+                  "dialects": [
+                    "British English"
+                  ],
+                  "phoneticNotation": "IPA",
+                  "phoneticSpelling": "wəːk"
+                }
+              ],
+              "senses": [
+                {
+                  "definitions": [
+                    "activity involving mental or physical effort done in order to achieve a purpose or result"
+                  ],
+                  "examples": [
+                    {
+                      "text": "he was tired after a day's work"
+                    },
+                    {
+                      "text": "work is still going on in fitting out a new store"
+                    }
+                  ],
+                  "id": "m_en_gbus1167380.008",
+                  "subsenses": [
+                    {
+                      "definitions": [
+                        "mental or physical activity as a means of earning income; employment"
+                      ],
+                      "examples": [
+                        {
+                          "text": "I'm still looking for work"
+                        }
+                      ],
+                      "id": "m_en_gbus1167380.010"
+                    },
+                    {
+                      "definitions": [
+                        "the place where one is employed"
+                      ],
+                      "examples": [
+                        {
+                          "text": "I was returning home from work on a packed subway"
+                        }
+                      ],
+                      "id": "m_en_gbus1167380.011"
+                    },
+                    {
+                      "definitions": [
+                        "the period of time one spends in paid employment"
+                      ],
+                      "examples": [
+                        {
+                          "text": "he was going to the theatre after work"
+                        }
+                      ],
+                      "id": "m_en_gbus1167380.012"
+                    },
+                    {
+                      "definitions": [
+                        "a job"
+                      ],
+                      "examples": [
+                        {
+                          "text": "I decided to get a work"
+                        }
+                      ],
+                      "id": "m_en_gbus1167380.013"
+                    }
+                  ]
+                },
+                {
+                  "definitions": [
+                    "a task or tasks to be undertaken"
+                  ],
+                  "examples": [
+                    {
+                      "text": "they made sure the work was progressing smoothly"
+                    }
+                  ],
+                  "id": "m_en_gbus1167380.017",
+                  "subsenses": [
+                    {
+                      "definitions": [
+                        "the materials for a task"
+                      ],
+                      "examples": [
+                        {
+                          "text": "she frequently took work home with her"
+                        }
+                      ],
+                      "id": "m_en_gbus1167380.018"
+                    },
+                    {
+                      "definitions": [
+                        "activity involving construction or repair"
+                      ],
+                      "examples": [
+                        {
+                          "text": "extra costs caused by additional building works"
+                        }
+                      ],
+                      "id": "m_en_gbus1167380.019"
+                    },
+                    {
+                      "definitions": [
+                        "cosmetic plastic surgery"
+                      ],
+                      "examples": [
+                        {
+                          "text": "between you and me, I think he's had some work done"
+                        }
+                      ],
+                      "id": "m_en_gbus1167380.021"
+                    },
+                    {
+                      "definitions": [
+                        "good or moral deeds"
+                      ],
+                      "examples": [
+                        {
+                          "text": "the Clapham sect was concerned with works rather than with faith"
+                        }
+                      ],
+                      "id": "m_en_gbus1167380.022"
+                    }
+                  ]
+                },
+                {
+                  "definitions": [
+                    "a thing or things done or made; the result of an action"
+                  ],
+                  "examples": [
+                    {
+                      "text": "her work hangs in all the main American collections"
+                    },
+                    {
+                      "text": "the bombing had been the work of a German-based cell"
+                    }
+                  ],
+                  "id": "m_en_gbus1167380.024",
+                  "subsenses": [
+                    {
+                      "definitions": [
+                        "a literary or musical composition or other piece of art"
+                      ],
+                      "examples": [
+                        {
+                          "text": "a work of fiction"
+                        }
+                      ],
+                      "id": "m_en_gbus1167380.026"
+                    },
+                    {
+                      "definitions": [
+                        "the artistic production of a particular author, composer, or artist, regarded collectively"
+                      ],
+                      "examples": [
+                        {
+                          "text": "the works of Schubert fill several feet of shelf space"
+                        }
+                      ],
+                      "id": "m_en_gbus1167380.027"
+                    },
+                    {
+                      "definitions": [
+                        "a piece of embroidery, sewing, or knitting, typically made using a specified stitch or method."
+                      ],
+                      "id": "m_en_gbus1167380.028"
+                    }
+                  ]
+                },
+                {
+                  "definitions": [
+                    "a place or premises in which industrial or manufacturing processes are carried out"
+                  ],
+                  "examples": [
+                    {
+                      "text": "he found a job in the locomotive works"
+                    }
+                  ],
+                  "id": "m_en_gbus1167380.032"
+                },
+                {
+                  "definitions": [
+                    "the operative part of a clock or other machine"
+                  ],
+                  "examples": [
+                    {
+                      "text": "she could almost hear the tick of its works"
+                    }
+                  ],
+                  "id": "m_en_gbus1167380.034"
+                },
+                {
+                  "definitions": [
+                    "a defensive structure"
+                  ],
+                  "examples": [
+                    {
+                      "text": "just north of the fort were trenches and the freshly reconstructed patriot siege works"
+                    }
+                  ],
+                  "id": "m_en_gbus1167380.036"
+                },
+                {
+                  "definitions": [
+                    "the exertion of force overcoming resistance or producing molecular change."
+                  ],
+                  "id": "m_en_gbus1167380.038"
+                },
+                {
+                  "definitions": [
+                    "everything needed, desired, or expected"
+                  ],
+                  "examples": [
+                    {
+                      "text": "the heavens put on a show: sheet lightning, hailstones, the works"
+                    }
+                  ],
+                  "id": "m_en_gbus1167380.040"
+                }
+              ]
+            }
+          ],
+          "language": "en-gb",
+          "lexicalCategory": {
+            "id": "noun",
+            "text": "Noun"
+          },
+          "text": "work"
+        },
+        {
+          "entries": [
+            {
+              "pronunciations": [
+                {
+                  "audioFile": "https://audio.oxforddictionaries.com/en/mp3/work_gb_1.mp3",
+                  "dialects": [
+                    "British English"
+                  ],
+                  "phoneticNotation": "IPA",
+                  "phoneticSpelling": "wəːk"
+                }
+              ],
+              "senses": [
+                {
+                  "definitions": [
+                    "be engaged in physical or mental activity in order to achieve a result; do work"
+                  ],
+                  "examples": [
+                    {
+                      "text": "she has been working so hard"
+                    },
+                    {
+                      "text": "an engineer who was working on a design for a more efficient wing"
+                    },
+                    {
+                      "text": "new contracts force employees to work longer hours"
+                    }
+                  ],
+                  "id": "m_en_gbus1167380.046",
+                  "subsenses": [
+                    {
+                      "definitions": [
+                        "be employed in a specified occupation or field"
+                      ],
+                      "examples": [
+                        {
+                          "text": "he worked as a waiter in a rather shabby restaurant"
+                        },
+                        {
+                          "text": "Taylor has worked in education for 17 years"
+                        },
+                        {
+                          "text": "I work for Ford"
+                        }
+                      ],
+                      "id": "m_en_gbus1167380.054"
+                    },
+                    {
+                      "definitions": [
+                        "set to or keep at work"
+                      ],
+                      "examples": [
+                        {
+                          "text": "Jane is working you too hard"
+                        }
+                      ],
+                      "id": "m_en_gbus1167380.055"
+                    },
+                    {
+                      "definitions": [
+                        "practise one's occupation in or at (a particular place)"
+                      ],
+                      "examples": [
+                        {
+                          "text": "I worked a few clubs and so forth"
+                        }
+                      ],
+                      "id": "m_en_gbus1167380.057"
+                    },
+                    {
+                      "definitions": [
+                        "be engaged in (a particular occupation)"
+                      ],
+                      "examples": [
+                        {
+                          "text": "I worked fireman on ships"
+                        }
+                      ],
+                      "id": "m_en_gbus1167380.058"
+                    }
+                  ]
+                },
+                {
+                  "definitions": [
+                    "(of a machine or system) function, especially properly or effectively"
+                  ],
+                  "examples": [
+                    {
+                      "text": "his phone doesn't work unless he goes to a high point"
+                    }
+                  ],
+                  "id": "m_en_gbus1167380.060",
+                  "subsenses": [
+                    {
+                      "definitions": [
+                        "(with reference to a machine or machine part) be or cause to be in operation"
+                      ],
+                      "examples": [
+                        {
+                          "text": "the device is designed to go into a special ‘rest’ state when it's not working"
+                        },
+                        {
+                          "text": "teaching customers how to work a VCR"
+                        }
+                      ],
+                      "id": "m_en_gbus1167380.062"
+                    }
+                  ]
+                },
+                {
+                  "definitions": [
+                    "(of a plan or method) have the desired result or effect"
+                  ],
+                  "examples": [
+                    {
+                      "text": "the desperate ploy had worked"
+                    }
+                  ],
+                  "id": "m_en_gbus1167380.064",
+                  "subsenses": [
+                    {
+                      "definitions": [
+                        "produce as a result"
+                      ],
+                      "examples": [
+                        {
+                          "text": "with a dash of blusher here and there, you can work miracles"
+                        }
+                      ],
+                      "id": "m_en_gbus1167380.065"
+                    },
+                    {
+                      "definitions": [
+                        "make efforts to achieve something; campaign"
+                      ],
+                      "examples": [
+                        {
+                          "text": "they are dedicated to working for a better future for the generations to come"
+                        }
+                      ],
+                      "id": "m_en_gbus1167380.066"
+                    },
+                    {
+                      "definitions": [
+                        "arrange or contrive"
+                      ],
+                      "examples": [
+                        {
+                          "text": "the chairman was prepared to work it for Phillip if he was interested"
+                        }
+                      ],
+                      "id": "m_en_gbus1167380.067"
+                    },
+                    {
+                      "definitions": [
+                        "use one's persuasive power to stir the emotions of"
+                      ],
+                      "examples": [
+                        {
+                          "text": "the born politician's art of working a crowd"
+                        }
+                      ],
+                      "id": "m_en_gbus1167380.069"
+                    }
+                  ]
+                },
+                {
+                  "definitions": [
+                    "bring (a material or mixture) to a desired shape or consistency by hammering, kneading, etc."
+                  ],
+                  "examples": [
+                    {
+                      "text": "work the mixture into a paste with your hands"
+                    }
+                  ],
+                  "id": "m_en_gbus1167380.071",
+                  "subsenses": [
+                    {
+                      "definitions": [
+                        "produce artistic pieces using a particular material or medium"
+                      ],
+                      "examples": [
+                        {
+                          "text": "he works in clay over a very strong frame"
+                        }
+                      ],
+                      "id": "m_en_gbus1167380.072"
+                    },
+                    {
+                      "definitions": [
+                        "produce (an article or design) using a specified material or sewing stitch"
+                      ],
+                      "examples": [
+                        {
+                          "text": "the castle itself is worked in tent stitch"
+                        }
+                      ],
+                      "id": "m_en_gbus1167380.232"
+                    },
+                    {
+                      "definitions": [
+                        "cultivate (land) or extract materials from (a mine or quarry)"
+                      ],
+                      "examples": [
+                        {
+                          "text": "contracts and leases to work the mines"
+                        }
+                      ],
+                      "id": "m_en_gbus1167380.074"
+                    }
+                  ]
+                },
+                {
+                  "definitions": [
+                    "move or cause to move gradually or with difficulty into another position"
+                  ],
+                  "examples": [
+                    {
+                      "notes": [
+                        {
+                          "text": "with object and adverbial or complement",
+                          "type": "grammaticalNote"
+                        }
+                      ],
+                      "text": "comb hair from tip to root, working out the knots at the end"
+                    },
+                    {
+                      "notes": [
+                        {
+                          "text": "no object, with adverbial or complement",
+                          "type": "grammaticalNote"
+                        }
+                      ],
+                      "text": "look for small parts that might work loose"
+                    }
+                  ],
+                  "id": "m_en_gbus1167380.076",
+                  "subsenses": [
+                    {
+                      "definitions": [
+                        "(of a person's features) move violently or convulsively"
+                      ],
+                      "examples": [
+                        {
+                          "text": "hair wild, mouth working furiously"
+                        }
+                      ],
+                      "id": "m_en_gbus1167380.077"
+                    },
+                    {
+                      "definitions": [
+                        "make progress to windward, with repeated tacking"
+                      ],
+                      "examples": [
+                        {
+                          "text": "trying to work to windward in light airs"
+                        }
+                      ],
+                      "id": "m_en_gbus1167380.079"
+                    }
+                  ]
+                },
+                {
+                  "definitions": [
+                    "bring into a specified emotional state"
+                  ],
+                  "examples": [
+                    {
+                      "text": "Harold had worked himself into a minor rage"
+                    }
+                  ],
+                  "id": "m_en_gbus1167380.081"
+                }
+              ]
+            }
+          ],
+          "language": "en-gb",
+          "lexicalCategory": {
+            "id": "verb",
+            "text": "Verb"
+          },
+          "text": "work"
+        }
+      ],
+      "type": "headword",
+      "word": "work"
+    }
+  ],
+  "word": "work"
+}

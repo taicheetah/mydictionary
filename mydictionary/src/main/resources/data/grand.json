@@ -1,0 +1,196 @@
+{
+    "id": "grand",
+    "metadata": {
+        "operation": "retrieve",
+        "provider": "Oxford University Press",
+        "schema": "RetrieveEntry"
+    },
+    "results": [
+        {
+            "id": "grand",
+            "language": "en-gb",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/grand_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "ɡrand"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "magnificent and imposing in appearance, size, or style"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "a grand country house"
+                                        },
+                                        {
+                                            "text": "the dinner party was very grand"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0427110.007",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "large, ambitious, or impressive in scope or scale"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "his grand design for the future of Europe"
+                                                },
+                                                {
+                                                    "text": "this was opera on a grand scale"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0427110.012"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "(of a person) of high rank and behaving in an appropriately proud or dignified way"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "she was such a grand lady"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0427110.013"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "used in names of places or buildings to suggest size or splendour"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "the Grand Canyon"
+                                                },
+                                                {
+                                                    "text": "the Grand Hotel"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0427110.014"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "denoting the largest or most important item of its kind"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "the grand entrance"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0427110.017",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "of the highest rank (used especially in official titles)"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "the Grand Vizier"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0427110.019"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "(of a crime) serious"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "grand theft"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0427110.020"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "very good or enjoyable; excellent"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "we had a grand day"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0427110.022"
+                                },
+                                {
+                                    "definitions": [
+                                        "(in names of family relationships) denoting one generation removed in ascent or descent"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "a grand-niece"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0427110.024"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "adjective",
+                        "text": "Adjective"
+                    },
+                    "text": "grand"
+                },
+                {
+                    "entries": [
+                        {
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/grand_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "ɡrand"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "a thousand dollars or pounds"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "he gets thirty-five grand a year"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0427110.027"
+                                },
+                                {
+                                    "definitions": [
+                                        "a grand piano."
+                                    ],
+                                    "id": "m_en_gbus0427110.030"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "noun",
+                        "text": "Noun"
+                    },
+                    "text": "grand"
+                }
+            ],
+            "type": "headword",
+            "word": "grand"
+        }
+    ],
+    "word": "grand"
+}

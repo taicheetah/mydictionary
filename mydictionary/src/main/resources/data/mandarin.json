@@ -1,0 +1,137 @@
+{
+    "id": "mandarin",
+    "metadata": {
+        "operation": "retrieve",
+        "provider": "Oxford University Press",
+        "schema": "RetrieveEntry"
+    },
+    "results": [
+        {
+            "id": "mandarin",
+            "language": "en-gb",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "homographNumber": "100",
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/mandarin_1_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "ˈmand(ə)rɪn"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "the standard literary and official form of Chinese, spoken by over 730 million people."
+                                    ],
+                                    "id": "m_en_gbus0613380.007"
+                                },
+                                {
+                                    "definitions": [
+                                        "an official in any of the nine top grades of the former imperial Chinese civil service."
+                                    ],
+                                    "id": "m_en_gbus0613380.012",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "(of clothing) characteristic of a former Chinese mandarin"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "a red-buttoned mandarin cap"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0613380.015"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "a porcelain ornament consisting of a nodding figure in traditional Chinese costume."
+                                            ],
+                                            "id": "m_en_gbus0613380.017"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "porcelain decorated with Chinese figures dressed as mandarins."
+                                            ],
+                                            "id": "m_en_gbus0613380.018"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "a powerful official or senior bureaucrat, especially one perceived as reactionary and secretive"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "a civil service mandarin"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0613380.021"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "noun",
+                        "text": "Noun"
+                    },
+                    "text": "mandarin"
+                }
+            ],
+            "type": "headword",
+            "word": "mandarin"
+        },
+        {
+            "id": "mandarin",
+            "language": "en-gb",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "homographNumber": "200",
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/mandarin_1_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "ˈmand(ə)rɪn"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "a small flattish citrus fruit with a loose yellow-orange skin."
+                                    ],
+                                    "id": "m_en_gbus0613390.013"
+                                },
+                                {
+                                    "definitions": [
+                                        "the citrus tree that yields the mandarin."
+                                    ],
+                                    "id": "m_en_gbus0613390.021"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "noun",
+                        "text": "Noun"
+                    },
+                    "text": "mandarin"
+                }
+            ],
+            "type": "headword",
+            "word": "mandarin"
+        }
+    ],
+    "word": "mandarin"
+}

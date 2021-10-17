@@ -1,0 +1,369 @@
+{
+    "id": "hand",
+    "metadata": {
+        "operation": "retrieve",
+        "provider": "Oxford University Press",
+        "schema": "RetrieveEntry"
+    },
+    "results": [
+        {
+            "id": "hand",
+            "language": "en-gb",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/hand_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "hand"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "the end part of a person's arm beyond the wrist, including the palm, fingers, and thumb"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "he was leading her by the hand"
+                                        },
+                                        {
+                                            "text": "the palm of her hand"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0448120.008",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "a prehensile organ resembling the hand and forming the end part of a limb of various mammals, such as that on all four limbs of a monkey."
+                                            ],
+                                            "id": "m_en_gbus0448120.011"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "a person's arm, including the hand"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "that dog bite me on mi hand, right below the elbow"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0448120.012"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "operated by or held in the hand"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "hand luggage"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0448120.013"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "done or made manually rather than by machine"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "hand signals"
+                                                },
+                                                {
+                                                    "text": "a hand-stitched quilt"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0448120.015"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "a round of applause"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "his fans gave him a big hand"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0448120.016"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "a person's handwriting"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "he inscribed the statement in a bold hand"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0448120.018"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "a pledge of marriage by a woman"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "he wrote to request the hand of her daughter in marriage"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0448120.019"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "a pointer on a clock or watch indicating the passing of units of time"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "the second hand"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0448120.021"
+                                },
+                                {
+                                    "definitions": [
+                                        "used in reference to the power to direct something"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "the day-to-day running of the house was in her hands"
+                                        },
+                                        {
+                                            "text": "they are taking the law into their own hands"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0448120.023",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "an active role in achieving or influencing something"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "he had a big hand in organizing the event"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0448120.025"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "help in doing something"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "do you need a hand?"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0448120.026"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "a person's workmanship, especially in artistic work"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "his idiosyncratic hand"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0448120.028",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "a person who does something to a specified standard"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "I'm a great hand at inventing"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0448120.029"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "a person who engages in manual labour, especially in a factory, on a farm, or on board a ship"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "a factory hand"
+                                        },
+                                        {
+                                            "text": "the ship was lost with all hands"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0448120.032"
+                                },
+                                {
+                                    "definitions": [
+                                        "the set of cards dealt to a player in a card game"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "he's got a good hand"
+                                        },
+                                        {
+                                            "registers": [
+                                                {
+                                                    "id": "figurative",
+                                                    "text": "Figurative"
+                                                }
+                                            ],
+                                            "text": "the situation does not give them a strong hand at the negotiating table"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0448120.034",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "a round or short spell of play in a card game"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "they played a hand of whist"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0448120.035"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "the cards held by a declarer as opposed to those in the dummy"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "declarer won in hand and led ♣J"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0448120.036"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "a unit of measurement of a horse's height, equal to 4 inches (10.16 cm)."
+                                    ],
+                                    "id": "m_en_gbus0448120.038"
+                                },
+                                {
+                                    "definitions": [
+                                        "a bunch of bananas"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "mottled hands of bananas"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0448120.040",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "a forehock of pork."
+                                            ],
+                                            "id": "m_en_gbus0448120.041"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "noun",
+                        "text": "Noun"
+                    },
+                    "text": "hand"
+                },
+                {
+                    "entries": [
+                        {
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/hand_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "hand"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "pick (something) up and give it to (someone)"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "he handed each man a glass"
+                                        },
+                                        {
+                                            "text": "I handed the trowel back to him"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0448120.044",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "make (abusive, untrue, or otherwise objectionable remarks) to (someone)"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "all the yarns she'd been handing me"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0448120.050"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "hold the hand of (someone) in order to guide them in a specified direction"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "he handed them into the carriage"
+                                        },
+                                        {
+                                            "text": "he handed her down the final step"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0448120.053"
+                                },
+                                {
+                                    "definitions": [
+                                        "take in or furl (a sail)"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "\n              hand in the main!"
+                                        },
+                                        {
+                                            "text": "the sail is handed and stowed"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0448120.055"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "verb",
+                        "text": "Verb"
+                    },
+                    "text": "hand"
+                }
+            ],
+            "type": "headword",
+            "word": "hand"
+        }
+    ],
+    "word": "hand"
+}

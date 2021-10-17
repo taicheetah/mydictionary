@@ -1,0 +1,170 @@
+{
+    "id": "phone",
+    "metadata": {
+        "operation": "retrieve",
+        "provider": "Oxford University Press",
+        "schema": "RetrieveEntry"
+    },
+    "results": [
+        {
+            "id": "phone",
+            "language": "en-gb",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "homographNumber": "100",
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/phone_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "fəʊn"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "a telephone"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "a few seconds later the phone rang"
+                                        },
+                                        {
+                                            "text": "a receptionist answered the phone"
+                                        },
+                                        {
+                                            "text": "a phone number"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0774540.006"
+                                },
+                                {
+                                    "definitions": [
+                                        "headphones or earphones."
+                                    ],
+                                    "id": "m_en_gbus0774540.010"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "noun",
+                        "text": "Noun"
+                    },
+                    "text": "phone"
+                },
+                {
+                    "entries": [
+                        {
+                            "homographNumber": "101",
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/phone_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "fəʊn"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "contact someone by phone"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "notes": [
+                                                {
+                                                    "text": "with object",
+                                                    "type": "grammaticalNote"
+                                                }
+                                            ],
+                                            "text": "he phoned her at work"
+                                        },
+                                        {
+                                            "notes": [
+                                                {
+                                                    "text": "no object",
+                                                    "type": "grammaticalNote"
+                                                }
+                                            ],
+                                            "text": "she phoned about twenty minutes ago"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0774540.013",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "work or perform without much effort, interest, or enthusiasm"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "I think of my playing as committed—I can't remember ever phoning it in at any performance"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0774540.019"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "verb",
+                        "text": "Verb"
+                    },
+                    "text": "phone"
+                }
+            ],
+            "type": "headword",
+            "word": "phone"
+        },
+        {
+            "id": "phone",
+            "language": "en-gb",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "homographNumber": "200",
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/phone_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "fəʊn"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "a speech sound; the smallest discrete segment of sound in a stream of speech."
+                                    ],
+                                    "id": "m_en_gbus0774550.005"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "noun",
+                        "text": "Noun"
+                    },
+                    "text": "phone"
+                }
+            ],
+            "type": "headword",
+            "word": "phone"
+        }
+    ],
+    "word": "phone"
+}

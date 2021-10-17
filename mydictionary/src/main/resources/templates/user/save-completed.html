@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="head :: head_fragment(title='My Dictionary - Created Account')">
+
+</head>
+
+<body>
+<section class="vh-100" style="background-color: #508bfc;">
+	<div class="container py-5 h-100">
+		<div class="row justify-content-center align-items-center h-100">
+			<div class="col-10 col-md-8 col-lg-6 col-xl-4">
+				<div class="card shadow-2-strong" style="border-radius: 1rem;">
+					<div class="card-body p-5">
+						<h3 class="text-center mb-5">Created User</h3>
+	
+						<p class="fs-4" th:text="'User ID : ' + ${user.userId}"></p>
+						<p class="fs-4" th:text="'User Name : ' + ${user.username}"></p>
+						<p class="fs-4" th:text="'E-Mail : ' + ${user.email}"></p>
+						<p class="fs-4" th:text="'Time Zone : ' + ${user.timeZone}"></p>
+						<hr>
+						<div class="text-center">	
+							<a th:href="@{/user/showLoginPage}" class="btn btn-link">Login Page</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+</body>
+
+</html>

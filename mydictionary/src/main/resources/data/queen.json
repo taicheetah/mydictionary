@@ -1,0 +1,214 @@
+{
+    "id": "queen",
+    "metadata": {
+        "operation": "retrieve",
+        "provider": "Oxford University Press",
+        "schema": "RetrieveEntry"
+    },
+    "results": [
+        {
+            "id": "queen",
+            "language": "en-gb",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/queen_gb_2.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "kwiːn"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "the female ruler of an independent state, especially one who inherits the position by right of birth"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "he insisted the princess could be crowned queen"
+                                        },
+                                        {
+                                            "notes": [
+                                                {
+                                                    "text": "as title",
+                                                    "type": "grammaticalNote"
+                                                }
+                                            ],
+                                            "text": "Queen Victoria"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0836590.006",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "a king's wife."
+                                            ],
+                                            "id": "m_en_gbus0836590.009"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "a woman or thing regarded as the finest or most outstanding in a particular sphere or group"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "the queen of the social columns"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0836590.013"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "a woman or girl chosen to hold the most important position in a festival or event"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "she's the official carnival queen"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0836590.014"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "(in the UK) the national anthem when there is a female sovereign."
+                                            ],
+                                            "id": "m_en_gbus0836590.015"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "a man's wife or girlfriend."
+                                            ],
+                                            "id": "m_en_gbus0836590.018"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "the most powerful chess piece that each player has, able to move in any direction along a rank, file, or diagonal on which it stands."
+                                    ],
+                                    "id": "m_en_gbus0836590.020"
+                                },
+                                {
+                                    "definitions": [
+                                        "a playing card bearing a representation of a queen, normally ranking next below a king and above a jack."
+                                    ],
+                                    "id": "m_en_gbus0836590.022"
+                                },
+                                {
+                                    "definitions": [
+                                        "a reproductive female in a colony of social ants, bees, wasps, or termites, frequently the only one present in a colony."
+                                    ],
+                                    "id": "m_en_gbus0836590.024"
+                                },
+                                {
+                                    "definitions": [
+                                        "an adult female cat that has not been spayed."
+                                    ],
+                                    "id": "m_en_gbus0836590.026"
+                                },
+                                {
+                                    "definitions": [
+                                        "a gay man, especially one regarded as ostentatiously effeminate."
+                                    ],
+                                    "id": "m_en_gbus0836590.028"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "noun",
+                        "text": "Noun"
+                    },
+                    "text": "queen"
+                },
+                {
+                    "entries": [
+                        {
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/queen_gb_2.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "kwiːn"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "behave in an unpleasantly superior way towards (someone)"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "Monique was queening it over everybody"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0836590.032"
+                                },
+                                {
+                                    "definitions": [
+                                        "convert (a pawn) into a queen when it reaches the opponent's back rank on the board."
+                                    ],
+                                    "id": "m_en_gbus0836590.039"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "verb",
+                        "text": "Verb"
+                    },
+                    "text": "queen"
+                }
+            ],
+            "type": "headword",
+            "word": "queen"
+        },
+        {
+            "id": "Queen",
+            "language": "en-gb",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/queen_gb_2.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "kwiːn"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "a British rock group featuring vocalist Freddie Mercury (1946–91). Queen were known for their extravagant, almost operatic brand of rock, as exemplified by the hugely successful ‘Bohemian Rhapsody’ (1975)."
+                                    ],
+                                    "id": "m_en_gbus0836600.003"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "noun",
+                        "text": "Noun"
+                    },
+                    "text": "Queen"
+                }
+            ],
+            "type": "headword",
+            "word": "Queen"
+        }
+    ],
+    "word": "queen"
+}

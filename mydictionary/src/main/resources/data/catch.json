@@ -1,0 +1,440 @@
+{
+    "id": "catch",
+    "metadata": {
+        "operation": "retrieve",
+        "provider": "Oxford University Press",
+        "schema": "RetrieveEntry"
+    },
+    "results": [
+        {
+            "id": "catch",
+            "language": "en-gb",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/catch_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "katʃ"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "intercept and hold (something which has been thrown, propelled, or dropped)"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "she threw the bottle into the air and caught it again"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0158900.012",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "intercept the fall of (someone)"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "he fell forwards and Linda caught him"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0158900.018"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "seize or take hold of"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "he caught hold of her arm as she tried to push past him"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0158900.019"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "grasp or try to grasp"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "his hands caught at her arms as she tried to turn away"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0158900.020"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "dismiss (a batsman) by catching the ball before it touches the ground"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "I was caught on the square-leg boundary for 96"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0158900.021"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "capture (a person or animal that tries or would try to escape)"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "we hadn't caught a single rabbit"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0158900.023",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "succeed in reaching a person who is ahead of one."
+                                            ],
+                                            "id": "m_en_gbus0158900.024"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "unexpectedly find oneself in (an unwelcome situation)"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "my sister was caught in a thunderstorm"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0158900.025"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "surprise (someone) in an incriminating situation or in the act of doing something wrong"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "he was caught with bomb-making equipment in his home"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0158900.026"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "come upon (someone) unexpectedly"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "unexpected snow caught us by surprise"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0158900.027"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "(of an object) accidentally become entangled or trapped in something"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "a button caught in her hair"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0158900.029",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "have (a part of one's body or clothing) become entangled or trapped in something"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "she caught her foot in the bedspread"
+                                                },
+                                                {
+                                                    "text": "companies face increased risks of being caught in a downward spiral"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0158900.030"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "fix or fasten in place"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "her hair was caught up in a bright scarf"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0158900.031"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "reach in time and board (a train, bus, or aircraft)"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "they caught the 12.15 from Oxford"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0158900.033",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "reach or be in a place in time to see (a person, performance, programme, etc.)"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "she was hurrying downstairs to catch the news"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0158900.034"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "attend or watch (a performance)"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "we'll get some burgers and catch a movie"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0158900.035"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "engage (a person's interest or imagination)"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "it was the business scheme that had caught his imagination"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0158900.037",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "perceive fleetingly"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "she caught a glimpse of herself in the mirror"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0158900.038"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "hear or understand (something said), especially with effort"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "he bellowed something Jess couldn't catch"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0158900.039"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "succeed in evoking or representing"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "the programme caught something of the flavour of Minoan culture"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0158900.040"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "strike (someone) on a part of the body"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "Ben caught him on the chin with an uppercut"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0158900.042",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "accidentally strike (a part of one's body) against something"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "she fell and caught her head on the corner of the hearth"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0158900.043"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "contract (an illness) through infection or contagion"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "he served in Macedonia, where he caught malaria"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0158900.045"
+                                },
+                                {
+                                    "definitions": [
+                                        "become ignited and start burning"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "the rafters have caught"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0158900.047",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "(of an engine) fire and start running"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "the generator caught immediately"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0158900.048"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "verb",
+                        "text": "Verb"
+                    },
+                    "text": "catch"
+                },
+                {
+                    "entries": [
+                        {
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/catch_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "katʃ"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "an act of catching something, typically a ball."
+                                    ],
+                                    "id": "m_en_gbus0158900.051",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "a chance or act of catching the ball to dismiss a batsman"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "he took a brilliant catch at deep square leg"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0158900.054"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "an amount of fish caught"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "the UK's North Sea haddock catch"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0158900.055"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "a person considered desirable as a partner or spouse"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "I mistakenly thought he would be a good catch"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0158900.056"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "a game in which a ball is thrown back and forth between two or more players."
+                                    ],
+                                    "id": "m_en_gbus0158900.058"
+                                },
+                                {
+                                    "definitions": [
+                                        "a device for securing something such as a door, window, or box"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "the window catch was rusty"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0158900.061"
+                                },
+                                {
+                                    "definitions": [
+                                        "a hidden problem or disadvantage in an apparently ideal situation"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "there's a catch in it somewhere"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0158900.063"
+                                },
+                                {
+                                    "definitions": [
+                                        "an unevenness in a person's voice caused by emotion"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "there was a catch in Anne's voice"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0158900.065"
+                                },
+                                {
+                                    "definitions": [
+                                        "a round, typically one with words arranged to produce a humorous effect."
+                                    ],
+                                    "id": "m_en_gbus0158900.067"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "noun",
+                        "text": "Noun"
+                    },
+                    "text": "catch"
+                }
+            ],
+            "type": "headword",
+            "word": "catch"
+        }
+    ],
+    "word": "catch"
+}

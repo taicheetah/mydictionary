@@ -1,0 +1,163 @@
+{
+    "id": "i",
+    "metadata": {
+        "operation": "retrieve",
+        "provider": "Oxford University Press",
+        "schema": "RetrieveEntry"
+    },
+    "results": [
+        {
+            "id": "I",
+            "language": "en-gb",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "homographNumber": "100",
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/i_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "ʌɪ"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "the ninth letter of the alphabet."
+                                    ],
+                                    "id": "m_en_gbus0490960.008",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "denoting the next after H in a set of items, categories, etc."
+                                            ],
+                                            "id": "m_en_gbus0490960.012"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "the Roman numeral for one."
+                                    ],
+                                    "id": "m_en_gbus0490960.015"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "noun",
+                        "text": "Noun"
+                    },
+                    "text": "I"
+                }
+            ],
+            "type": "headword",
+            "word": "I"
+        },
+        {
+            "id": "I",
+            "language": "en-gb",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "homographNumber": "200",
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/i_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "ʌɪ"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "used by a speaker to refer to himself or herself"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "accept me for what I am"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0490980.006",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "me"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "Junior tell I is the army him a'work for"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0490980.008"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "(especially among Rastafarians) used in reference to oneself or to people in general"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "I and I must submit to and follow Jah"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0490980.009"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "pronoun",
+                        "text": "Pronoun"
+                    },
+                    "text": "I"
+                },
+                {
+                    "entries": [
+                        {
+                            "homographNumber": "201",
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/i_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "ʌɪ"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "(in metaphysics) the subject or object of self-consciousness; the ego."
+                                    ],
+                                    "id": "m_en_gbus0490980.014"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "noun",
+                        "text": "Noun"
+                    },
+                    "text": "I"
+                }
+            ],
+            "type": "headword",
+            "word": "I"
+        }
+    ],
+    "word": "I"
+}

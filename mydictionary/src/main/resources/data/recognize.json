@@ -1,0 +1,139 @@
+{
+    "id": "recognize",
+    "metadata": {
+        "operation": "retrieve",
+        "provider": "Oxford University Press",
+        "schema": "RetrieveEntry"
+    },
+    "results": [
+        {
+            "id": "recognize",
+            "language": "en-gb",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/recognize_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "ˈrɛkəɡnʌɪz"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "identify (someone or something) from having encountered them before; know again"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "Julia hardly recognized Jill when they met"
+                                        },
+                                        {
+                                            "text": "one of the librarians recognized her from the photograph"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0851340.007",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "identify from knowledge of appearance or character"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "Pat is very good at recognizing wild flowers"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0851340.018"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "(of a computer or other machine) automatically identify and respond correctly to (a sound, printed character, etc.)"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "Dr Friedman is programming his computer to recognize the shapes of strokes in the hands of various writers"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0851340.019"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "acknowledge the existence, validity, or legality of"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "the defence is recognized in British law"
+                                        },
+                                        {
+                                            "text": "he was recognized as an international authority"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0851340.021",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "show official appreciation of; reward formally"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "his work was recognized by an honorary degree from Glasgow University"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0851340.022"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "officially regard (a qualification) as valid or proper"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "these qualifications are recognized by the Department of Education"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0851340.023"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "grant diplomatic recognition to (a country or government)"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "countries which recognized East Germany"
+                                                },
+                                                {
+                                                    "text": "they were refusing to recognize the puppet regime"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0851340.024"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "(of a person presiding at a meeting or debate) call on (someone) to speak."
+                                            ],
+                                            "id": "m_en_gbus0851340.025"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "verb",
+                        "text": "Verb"
+                    },
+                    "text": "recognize"
+                }
+            ],
+            "type": "headword",
+            "word": "recognize"
+        }
+    ],
+    "word": "recognize"
+}

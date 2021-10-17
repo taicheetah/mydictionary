@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="head :: head_fragment(title='My Dictionary - Search Word')">
+</head>
+
+<body>
+
+<div th:replace="header :: header_fragment(searchWord)"></div>
+
+	<div class="container">
+		<div class=" row d-flex justify-content-center">
+			<div class="col-10 col-md-8 col-lg-6 col-xl-5">
+				<div class="text-center">
+					<p class="h3 mb-4 mt-4">Search Word</p>
+				</div>
+				<form action="#" th:action="@{/word/searchWord}" method="GET">
+					<div class="input-group">
+						<input type="text" name="wordName" class="form-control mb-4" th:disabled="${isAPIenabled} != null">
+					</div>
+					
+					<p th:text="${errorMessage}" class="alert alert-danger" th:if="${errorMessage} != null"></p>
+					
+					<div class="text-center">
+						<button type="submit" class="btn btn-outline-info" th:classappend="${(isAPIenabled != null) ? 'disabled':''}">Search</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+			
+
+			
+	<div class="container" th:if="${word} != null">
+		<div class=" row d-flex justify-content-center">
+			<div class="col-12 col-md-10 col-lg-8 col-xl-8">	
+				<form action="#" th:action="@{/word/register}" th:object="${word}" method="POST">
+					<hr>
+					<div class="mb-2">
+						<span th:text="*{wordName}" class="h1" th:if="*{wordName} != null"></span>
+						
+						<span th:text="'[' + *{phoneticSpelling}  + ']' " th:if="*{phoneticSpelling} != null"></span>
+					</div>
+					<audio controls th:src="*{audio_url}" th:if="*{audio_url} != null"></audio>
+					
+					<ul style="list-style: none; padding-left: 0;">
+						<li th:each="tempDefinition : *{definitions}" class="mt-4" th:if="*{definitions} != null" >
+							<p th:text="'['+${tempDefinition.definitionId.lexicalCategory} +'] '+ ${tempDefinition.definition}" class="h5"></p>
+							<i th:text="'\'' + ${tempDefinition.example} + '\''" th:if="${tempDefinition.example} !=null"></i>
+						</li>
+					</ul>
+					
+					<input type="hidden" th:field="*{wordName}" />
+					<input type="hidden" th:field="*{phoneticSpelling}" />
+					<input type="hidden" th:field="*{audio_url}" />
+					
+		 			<th:block th:each="tempDefinition, status : *{definitions}" th:if="*{definitions} !=null">
+		 				<input type="hidden" th:attr="name='definitions[' + __${status.index}__ + '].definitionId.lexicalCategory'" th:value="${tempDefinition.definitionId.lexicalCategory}" />
+						<input type="hidden" th:attr="name='definitions[' + __${status.index}__ + '].definition'" th:value="${tempDefinition.definition}" />
+						<input type="hidden" th:attr="name='definitions[' + __${status.index}__ + '].example'" th:value="${tempDefinition.example}" th:if="${tempDefinition.example} != null" />
+					</th:block>
+					
+					<div class="text-center">
+						<button type="submit" class="btn btn-warning">Register</button>
+						<div th:text="${registerMessage}" class="alert alert-success mt-4" th:if="${registerMessage} != null"></div>
+					</div>
+				</form>	
+			</div>
+		</div>
+	</div>
+ 
+				
+	<div class="container">
+		<div class=" row d-flex justify-content-center">
+			<div class="col-12 col-md-10 col-lg-8 col-xl-8">
+				<hr class="mt-4">
+				<a th:href="@{/word/list(pageNumber=0, sortAttribute=dateTime, descending=true)}"
+					class="btn btn-secondary btn-sm mt-4 mb-5">
+					Move to word list
+				</a>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>

@@ -1,0 +1,128 @@
+{
+    "id": "sad",
+    "metadata": {
+        "operation": "retrieve",
+        "provider": "Oxford University Press",
+        "schema": "RetrieveEntry"
+    },
+    "results": [
+        {
+            "id": "sad",
+            "language": "en-gb",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/sad_gb_2.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "sad"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "feeling or showing sorrow; unhappy"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "I was sad and subdued"
+                                        },
+                                        {
+                                            "text": "they looked at her with sad, anxious faces"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0891960.008",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "causing or characterized by sorrow or regret; unfortunate and regrettable"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "he told her the sad story of his life"
+                                                },
+                                                {
+                                                    "text": "a sad day for us all"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0891960.012"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "pathetically inadequate or unfashionable"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "the show is tongue-in-cheek—anyone who takes it seriously is a bit sad"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0891960.014"
+                                },
+                                {
+                                    "definitions": [
+                                        "(of dough) heavy through having failed to rise."
+                                    ],
+                                    "id": "m_en_gbus0891960.016"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "adjective",
+                        "text": "Adjective"
+                    },
+                    "text": "sad"
+                }
+            ],
+            "type": "headword",
+            "word": "sad"
+        },
+        {
+            "id": "SAD",
+            "language": "en-gb",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/sad_gb_2.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "sad"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "seasonal affective disorder."
+                                    ],
+                                    "id": "m_en_gbus0891970.005"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "residual",
+                        "text": "Residual"
+                    },
+                    "text": "SAD"
+                }
+            ],
+            "type": "headword",
+            "word": "SAD"
+        }
+    ],
+    "word": "sad"
+}

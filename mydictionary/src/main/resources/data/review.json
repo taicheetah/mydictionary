@@ -1,0 +1,228 @@
+{
+    "id": "review",
+    "metadata": {
+        "operation": "retrieve",
+        "provider": "Oxford University Press",
+        "schema": "RetrieveEntry"
+    },
+    "results": [
+        {
+            "id": "review",
+            "language": "en-gb",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/review_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "rɪˈvjuː"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "a formal assessment of something with the intention of instituting change if necessary"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "a comprehensive review of UK defence policy"
+                                        },
+                                        {
+                                            "notes": [
+                                                {
+                                                    "text": "mass noun",
+                                                    "type": "grammaticalNote"
+                                                }
+                                            ],
+                                            "text": "all areas of the company will come under review"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0869490.007",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "a reconsideration of a judgement, sentence, etc. by a higher court or authority"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "a review of her sentence"
+                                                },
+                                                {
+                                                    "text": "his case comes up for review in January"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0869490.010"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "a report on or evaluation of a subject or past events"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "the Director General's end-of-year review"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0869490.012"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "a critical appraisal of a book, play, film, etc. published in a newspaper or magazine"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "she released her debut solo album to rave reviews"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0869490.014",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "a periodical publication with critical articles on culture and current events"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "the New Left Review"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0869490.015"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "a ceremonial display and formal inspection of military or naval forces, typically by a sovereign, commander-in-chief, or high-ranking visitor"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "he conducted a final review of his troops and spoke of his pride in having served in the US army"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0869490.017"
+                                },
+                                {
+                                    "definitions": [
+                                        "a facility for playing a tape recording during a fast wind or rewind, so that it can be stopped at a particular point"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "cue and review, which plays the tape backwards or forwards at high speed"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0869490.019"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "noun",
+                        "text": "Noun"
+                    },
+                    "text": "review"
+                },
+                {
+                    "entries": [
+                        {
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/review_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "rɪˈvjuː"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "assess (something) formally with the intention of instituting change if necessary"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "the Home Secretary was called on to review Britain's gun laws"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0869490.022",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "submit (a sentence, case, etc.) for reconsideration by a higher court or authority"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "the Attorney General asked the court to review the sentence"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0869490.028"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "survey or evaluate (a subject or past events)"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "in the next chapter we review a number of recent empirical studies"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0869490.030"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "write a critical appraisal of (a book, play, film, etc.) for publication in a newspaper or magazine"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "I reviewed his first novel"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0869490.032"
+                                },
+                                {
+                                    "definitions": [
+                                        "(of a sovereign, commander-in-chief, or high-ranking visitor) make a ceremonial and formal inspection of (military or naval forces)"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "the Queen reviewed her brightly arrayed troops"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0869490.034"
+                                },
+                                {
+                                    "definitions": [
+                                        "view or inspect again"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "all slides were then reviewed by one pathologist"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0869490.036"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "verb",
+                        "text": "Verb"
+                    },
+                    "text": "review"
+                }
+            ],
+            "type": "headword",
+            "word": "review"
+        }
+    ],
+    "word": "review"
+}

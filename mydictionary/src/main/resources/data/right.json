@@ -1,0 +1,598 @@
+{
+    "id": "right",
+    "metadata": {
+        "operation": "retrieve",
+        "provider": "Oxford University Press",
+        "schema": "RetrieveEntry"
+    },
+    "results": [
+        {
+            "id": "right",
+            "language": "en-gb",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/right_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "rʌɪt"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "morally good, justified, or acceptable"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "I hope we're doing the right thing"
+                                        },
+                                        {
+                                            "text": "you were quite right to criticize him"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0873500.007"
+                                },
+                                {
+                                    "definitions": [
+                                        "true or correct as a fact"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "I'm not sure I know the right answer"
+                                        },
+                                        {
+                                            "text": "her theories were proved right"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0873500.010",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "correct in one's opinion or judgement"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "she was right about Tom having no money"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0873500.014"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "according to what is correct for a particular situation"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "is this the right way to the cottage?"
+                                                },
+                                                {
+                                                    "text": "you're not holding it the right way up"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0873500.015"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "best or most appropriate for a particular situation"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "he was clearly the right man for the job"
+                                                },
+                                                {
+                                                    "text": "I was waiting for the right moment to ask him"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0873500.016"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "socially fashionable or important"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "he was seen at all the right places"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0873500.017"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "in a satisfactory, sound, or normal state or condition"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "that sausage doesn't smell right"
+                                        },
+                                        {
+                                            "text": "if only I could have helped put matters right"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0873500.019"
+                                },
+                                {
+                                    "definitions": [
+                                        "on, towards, or relating to the side of a human body or of a thing that is to the east when the person or thing is facing north"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "my right elbow"
+                                        },
+                                        {
+                                            "text": "the right edge of the field"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0873500.021"
+                                },
+                                {
+                                    "definitions": [
+                                        "relating to or denoting a person or group favouring right-wing views; conservative"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "are you politically right, left, or centre?"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0873500.025"
+                                },
+                                {
+                                    "definitions": [
+                                        "complete; absolute (used for emphasis)"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "I felt a right idiot"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0873500.023"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "adjective",
+                        "text": "Adjective"
+                    },
+                    "text": "right"
+                },
+                {
+                    "entries": [
+                        {
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/right_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "rʌɪt"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "to the furthest or most complete extent or degree (used for emphasis)"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "the car spun right off the track"
+                                        },
+                                        {
+                                            "text": "I'm right out of ideas"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0873500.028",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "exactly; directly (used to emphasize the precise location or time of something)"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "Harriet was standing right behind her"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0873500.030"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "without delaying or hesitating; immediately"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "I'll be right back"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0873500.031"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "very"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "it's right spooky in there!"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0873500.032"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "correctly"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "he had guessed right"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0873500.034",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "in the required or necessary way; satisfactorily"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "nothing's going right for me this season"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0873500.035"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "on or to the right side"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "turn right off the B1269"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0873500.037"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "adverb",
+                        "text": "Adverb"
+                    },
+                    "text": "right"
+                },
+                {
+                    "entries": [
+                        {
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/right_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "rʌɪt"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "that which is morally correct, just, or honourable"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "she doesn't understand the difference between right and wrong"
+                                        },
+                                        {
+                                            "text": "the rights and wrongs of the matter"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0873500.040"
+                                },
+                                {
+                                    "definitions": [
+                                        "a moral or legal entitlement to have or do something"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "notes": [
+                                                {
+                                                    "text": "with infinitive",
+                                                    "type": "grammaticalNote"
+                                                }
+                                            ],
+                                            "text": "she had every right to be angry"
+                                        },
+                                        {
+                                            "text": "you're quite within your rights to ask for your money back"
+                                        },
+                                        {
+                                            "notes": [
+                                                {
+                                                    "text": "mass noun",
+                                                    "type": "grammaticalNote"
+                                                }
+                                            ],
+                                            "text": "there is no right of appeal against the decision"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0873500.043",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "the authority to perform, publish, film, or televise a particular work, event, etc."
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "they sold the paperback rights"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0873500.046"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "the right-hand part, side, or direction"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "take the first turning on the right"
+                                        },
+                                        {
+                                            "notes": [
+                                                {
+                                                    "text": "\"one's right\"",
+                                                    "type": "wordFormNote"
+                                                }
+                                            ],
+                                            "text": "she seated me on her right"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0873500.049",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "(in football or a similar sport) the right-hand half of the field when facing the opponent's goal"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "they made a neat series of passes over on the right"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0873500.050"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "the right wing of an army"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "the allies succeeded in overrunning the French right"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0873500.052"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "a right turn"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "he made a right in Dorchester Avenue"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0873500.053"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "a road or entrance on the right"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "take the first right over the stream"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0873500.054"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "a person's right fist, especially a boxer's"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "he ducked down low then brought up his right"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0873500.055"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "a blow given with the right fist"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "the young cop swung a terrific right"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0873500.056"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "a group or party favouring right-wing or conservative views"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "the Right got in at the election"
+                                        },
+                                        {
+                                            "text": "his proposal was viewed with alarm by the right of the party"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0873500.058"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "noun",
+                        "text": "Noun"
+                    },
+                    "text": "right"
+                },
+                {
+                    "entries": [
+                        {
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/right_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "rʌɪt"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "restore to a normal or upright position"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "we righted the capsized dinghy"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0873500.064"
+                                },
+                                {
+                                    "definitions": [
+                                        "restore to a normal or correct state"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "righting the economy demanded major cuts in defence spending"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0873500.071",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "redress or rectify (a wrong or mistaken action)"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "she was determined to right the wrongs done to her father"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0873500.072"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "make reparation to (someone) for a wrong done to them"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "we'll see you righted"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0873500.073"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "verb",
+                        "text": "Verb"
+                    },
+                    "text": "right"
+                },
+                {
+                    "entries": [
+                        {
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/right_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "rʌɪt"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "used to indicate agreement or to acknowledge a statement or order"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "‘Barry's here.’ ‘Oh, right’"
+                                        },
+                                        {
+                                            "text": "\n              right you are, sir"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0873500.085",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "used at the end of a statement to invite agreement, approval, or confirmation"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "you went to see Angie on Monday, right?"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0873500.087"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "used as a filler in speech or to introduce an utterance or exhortation"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "right, let's have a drink"
+                                                },
+                                                {
+                                                    "text": "and I didn't think any more of it, right, but Mum said I should take him to a doctor"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0873500.089"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "interjection",
+                        "text": "Interjection"
+                    },
+                    "text": "right"
+                }
+            ],
+            "type": "headword",
+            "word": "right"
+        }
+    ],
+    "word": "right"
+}

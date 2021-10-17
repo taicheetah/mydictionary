@@ -1,0 +1,187 @@
+{
+    "id": "thought",
+    "metadata": {
+        "operation": "retrieve",
+        "provider": "Oxford University Press",
+        "schema": "RetrieveEntry"
+    },
+    "results": [
+        {
+            "id": "thought",
+            "language": "en-gb",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "homographNumber": "100",
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/thought_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "θɔːt"
+                                }
+                            ],
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "an idea or opinion produced by thinking, or occurring suddenly in the mind"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "Maggie had a sudden thought"
+                                        },
+                                        {
+                                            "text": "I asked him if he had any thoughts on how it had happened"
+                                        },
+                                        {
+                                            "text": "Mrs Oliver's first thought was to get help"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus1049150.007",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "one's mind or attention"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "he's very much in our thoughts and prayers"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus1049150.011"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "an act of considering or remembering someone or something"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "she hadn't given a thought to Max for some time"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus1049150.013"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "an intention, hope, or idea of doing or receiving something"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "he had given up all thoughts of making London his home"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus1049150.014"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "to a small extent; somewhat"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "those of us who work at home may find our hands a thought freer"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus1049150.016"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "the action or process of thinking"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "Sophie sat deep in thought"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus1049150.019",
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "the formation of opinions, especially as a philosophy or system of ideas, or the opinions so formed"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "the freedom of thought and action"
+                                                },
+                                                {
+                                                    "text": "the traditions of Western thought"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus1049150.020"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "careful consideration or attention"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "I haven't given it much thought"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus1049150.021"
+                                        },
+                                        {
+                                            "definitions": [
+                                                "concern for another's well-being or convenience"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "he is carrying on the life of a single man, with no thought for me"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus1049150.022"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "noun",
+                        "text": "Noun"
+                    },
+                    "text": "thought"
+                }
+            ],
+            "type": "headword",
+            "word": "thought"
+        },
+        {
+            "id": "thought",
+            "language": "en-gb",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "homographNumber": "200",
+                            "pronunciations": [
+                                {
+                                    "audioFile": "https://audio.oxforddictionaries.com/en/mp3/thought_gb_1.mp3",
+                                    "dialects": [
+                                        "British English"
+                                    ],
+                                    "phoneticNotation": "IPA",
+                                    "phoneticSpelling": "θɔːt"
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en-gb",
+                    "lexicalCategory": {
+                        "id": "verb",
+                        "text": "Verb"
+                    },
+                    "text": "thought"
+                }
+            ],
+            "type": "headword",
+            "word": "thought"
+        }
+    ],
+    "word": "thought"
+}
