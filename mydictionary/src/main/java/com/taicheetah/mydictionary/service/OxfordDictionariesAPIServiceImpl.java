@@ -30,6 +30,8 @@ public class OxfordDictionariesAPIServiceImpl implements OxfordDictionariesAPISe
 	private String urlStr;
 	@Value("${fields}")
 	private String fields;
+	@Value("${jsonDirectory}")
+	private String jsonDirectory;
 	
 	private static Logger logger = Logger.getLogger(OxfordDictionariesAPIServiceImpl.class.getName());
 	
@@ -49,7 +51,7 @@ public class OxfordDictionariesAPIServiceImpl implements OxfordDictionariesAPISe
 			
 			int code = urlConnection.getResponseCode();
 			
-			// in the case of success
+			// when success
 			if(code == 200) {
 				StringBuilder stringBuilder = retrieveJson(urlConnection.getInputStream());
 				
@@ -63,10 +65,10 @@ public class OxfordDictionariesAPIServiceImpl implements OxfordDictionariesAPISe
 				response = mapper.readValue(stringBuilder.toString(), ResponseFromOxfordDictionariesAPI.class);
 				
 			} else if(code == 404){
-				// in the case of not finding the word, create response that involve nothing
+				// when not finding the word, create response that involve nothing
 				response = new ResponseFromOxfordDictionariesAPI();
 			} else {
-				// in the case of error except for 404, throw error that involve error message
+				// when error except for 404 occurs, throw error that involve error message
 				StringBuilder stringBuilder = retrieveJson(urlConnection.getErrorStream());
 				ObjectMapper mapper = new ObjectMapper();
 				ErrorInfo errorResponse = mapper.readValue(stringBuilder.toString(), ErrorInfo.class);
@@ -98,7 +100,7 @@ public class OxfordDictionariesAPIServiceImpl implements OxfordDictionariesAPISe
 	public void createJsonForMock(String wordName, StringBuilder content) {
 		
 		try {
-			File newJson = new File("src/main/resources/data/" +wordName +".json");
+			File newJson = new File(jsonDirectory +wordName +".json");
 
 			FileWriter filewriter = new FileWriter(newJson);
 			
@@ -119,7 +121,7 @@ public class OxfordDictionariesAPIServiceImpl implements OxfordDictionariesAPISe
 		
 		ResponseFromOxfordDictionariesAPI response = new ResponseFromOxfordDictionariesAPI();
 		try {
-			response = mapper.readValue(new File("src/main/resources/data/" +wordName +".json"), ResponseFromOxfordDictionariesAPI.class);
+			response = mapper.readValue(new File(jsonDirectory +wordName +".json"), ResponseFromOxfordDictionariesAPI.class);
 		} catch (JsonParseException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
