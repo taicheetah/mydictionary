@@ -30,7 +30,14 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 		if(result.isPresent()) {
 			theUser = result.get();
 		} else {
-			throw new UsernameNotFoundException("Did not find user id - " + theUserId);
+			// when the user login by Email
+			result = userRepository.findByEmail(theUserId);
+			
+			if(result.isPresent()) {
+				theUser = result.get();
+			} else {
+				throw new UsernameNotFoundException("Did not find user ID/Email - " + theUserId);
+			}
 		}
 		
 		return theUser;

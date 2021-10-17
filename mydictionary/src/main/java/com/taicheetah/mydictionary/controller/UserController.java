@@ -90,6 +90,12 @@ public class UserController {
 			userIdErrorList.add("This user ID is already used.");
 			theModel.addAttribute("userIdErrorList", userIdErrorList);
 			return "user/user-form";
+		} else if(userService.findByEmail(theUserForm.getEmail()) != null){
+			List<String> eMailErrorList = new ArrayList<String>();
+			eMailErrorList.add("This Email address is already used.");
+			theModel.addAttribute("eMailErrorList", eMailErrorList);
+			return "user/user-form";
+			
 		} else {
 			
 			// encrypt the password
