@@ -13,5 +13,7 @@ public interface UserService{
 	public User save(User theUser);
 	
 	public void deleteById(String theId);
+
+	public User findByEmail(String theEmail);
 	
 }

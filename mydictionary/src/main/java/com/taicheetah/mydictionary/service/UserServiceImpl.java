@@ -40,6 +40,20 @@ public class UserServiceImpl implements UserService {
 		
 		return theUser;
 	}
+	
+	@Override
+	@Transactional
+	public User findByEmail(String theEmail) {
+		Optional<User> result = userRepository.findByEmail(theEmail);
+		
+		User theUser = null;
+		
+		if(result.isPresent()) {
+			theUser = result.get();
+		}
+		
+		return theUser;
+	}
 
 	@Override
 	@Transactional

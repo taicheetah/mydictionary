@@ -214,19 +214,17 @@ public class WordController {
 			theWord.setAudio_url(thePronunciation.getAudioFile());
 
 			List<Definition> theDefinitions = new ArrayList<>();
-			DefinitionId theDefinitionId = null;
-			String theLexicalCategory = null;
-			String theDefinition = null;
-			String theExample = null;
 			
 			// retrieve the definition by lexical category
 			for(LexicalEntry tempLexicalEntry: lexicalEntries) {
-				theLexicalCategory = tempLexicalEntry.getLexicalCategory().getText();
-				theDefinitionId = new DefinitionId(theLexicalCategory);
+								
+				String theLexicalCategory = tempLexicalEntry.getLexicalCategory().getText();
+				DefinitionId theDefinitionId = new DefinitionId(theLexicalCategory);
 				
 				// retrieve only first definition
-				theDefinition = tempLexicalEntry.getEntries().get(0).getSenses().get(0).getDefinitions().get(0);
+				String theDefinition = tempLexicalEntry.getEntries().get(0).getSenses().get(0).getDefinitions().get(0);
 				
+				String theExample = null;
 				// when examples exist
 				if(tempLexicalEntry.getEntries().get(0).getSenses().get(0).getExamples() != null) {
 					// retrieve only first example
