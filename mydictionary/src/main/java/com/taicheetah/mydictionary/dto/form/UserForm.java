@@ -5,11 +5,6 @@ import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 
 public class UserForm {
-
-	@NotBlank(message="UserId cannot be blank.")
-	@Size(max=20, message="UserId cannot be greater than 20.")
-	@Pattern(regexp ="^[A-Za-z0-9]+$", message="UserId must be letters or numbers.")
-	private String userId;
 	
 	@NotBlank(message="UserName cannot be blank.")
 	@Size(max=20, message="UserName cannnot be greater than 20.")
@@ -26,14 +21,6 @@ public class UserForm {
 	
 	@NotBlank(message="TimeZone cannot be blank.")
 	private String timeZone;
-
-	public String getUserId() {
-		return userId;
-	}
-
-	public void setUserId(String userId) {
-		this.userId = userId;
-	}
 
 	public String getUsername() {
 		return username;

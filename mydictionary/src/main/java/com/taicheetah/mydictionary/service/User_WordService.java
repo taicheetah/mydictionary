@@ -12,17 +12,17 @@ import com.taicheetah.mydictionary.entity.User_WordId;
 
 public interface User_WordService {
 	
-	public Page<User_Word> findAllWordsByUserId(String userId, Pageable pageable);
+	public Page<User_Word> findAllWordsByUserId(int userId, Pageable pageable);
 	
-	public Page<User_Word> findAllWordsByUserIdAndWordNameContains(String userId, String keyWord, Pageable pageable);
+	public Page<User_Word> findAllWordsByUserIdAndWordNameContains(int userId, String keyWord, Pageable pageable);
 	
-	public Page<User_Word> findAllWordsByUserIdAndRememberFlgAndWordNameContains(String userId, boolean rememberFlg,
+	public Page<User_Word> findAllWordsByUserIdAndRememberFlgAndWordNameContains(int userId, boolean rememberFlg,
 			String keyWord, Pageable pageable);
 
-	public Page<User_Word> findAllWordsByUserIdAndDateTimeBetweenAndWordNameContains(String userId, Date startDate,
+	public Page<User_Word> findAllWordsByUserIdAndDateTimeBetweenAndWordNameContains(int userId, Date startDate,
 			Date endDate, String keyWord, Pageable pageable);
 	
-	public Page<User_Word> findAllWordsByUserIdAndRememberFlgAndDateTimeBetweenAndWordNameContains(String userId,
+	public Page<User_Word> findAllWordsByUserIdAndRememberFlgAndDateTimeBetweenAndWordNameContains(int userId,
 			boolean rememberFlg, Date startDate, Date endDate, String keyWord, Pageable pageable);
 	
 	public User_Word findById(User_WordId theUser_WordId);

@@ -27,35 +27,35 @@ public class User_WordServiceImpl implements User_WordService {
 	
 	@Override
 	@Transactional
-	public Page<User_Word> findAllWordsByUserId(String userId, Pageable pageable){
+	public Page<User_Word> findAllWordsByUserId(int userId, Pageable pageable){
 		
 		return user_WordRepository.findAllWordsByUserId(userId, pageable);
 	}
 	
 	@Override
 	@Transactional
-	public Page<User_Word> findAllWordsByUserIdAndWordNameContains(String userId, String keyWord, Pageable pageable){
+	public Page<User_Word> findAllWordsByUserIdAndWordNameContains(int userId, String keyWord, Pageable pageable){
 		
 		return user_WordRepository.findAllWordsByUserIdAndWordNameContains(userId, keyWord, pageable);
 	}
 	
 	@Override
 	@Transactional
-	public Page<User_Word> findAllWordsByUserIdAndRememberFlgAndWordNameContains(String userId, boolean rememberFlg, String keyWord, Pageable pageable){
+	public Page<User_Word> findAllWordsByUserIdAndRememberFlgAndWordNameContains(int userId, boolean rememberFlg, String keyWord, Pageable pageable){
 		
 		return user_WordRepository.findAllWordsByUserIdAndRememberFlgAndWordNameContains(userId, rememberFlg, keyWord, pageable);
 	}
 	
 	@Override
 	@Transactional
-	public Page<User_Word> findAllWordsByUserIdAndDateTimeBetweenAndWordNameContains(String userId, Date startDate, Date endDate,String keyWord, Pageable pageable){
+	public Page<User_Word> findAllWordsByUserIdAndDateTimeBetweenAndWordNameContains(int userId, Date startDate, Date endDate,String keyWord, Pageable pageable){
 		
 		return user_WordRepository.findAllWordsByUserIdAndDateTimeBetweenAndWordNameContains(userId, startDate, endDate, keyWord, pageable);
 	}
 	
 	@Override
 	@Transactional
-	public Page<User_Word> findAllWordsByUserIdAndRememberFlgAndDateTimeBetweenAndWordNameContains(String userId, boolean rememberFlg, Date startDate, Date endDate,String keyWord, Pageable pageable){
+	public Page<User_Word> findAllWordsByUserIdAndRememberFlgAndDateTimeBetweenAndWordNameContains(int userId, boolean rememberFlg, Date startDate, Date endDate,String keyWord, Pageable pageable){
 		
 		return user_WordRepository.findAllWordsByUserIdAndRememberFlgAndDateTimeBetweenAndWordNameContains(userId, rememberFlg, startDate, endDate, keyWord, pageable);
 	}

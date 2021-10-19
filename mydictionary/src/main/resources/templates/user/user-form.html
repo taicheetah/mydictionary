@@ -22,17 +22,6 @@
 						
 							<form action="#" th:action="@{/user/registerUser}"
 											 th:object="${user}" method="POST">	
-								<div class="mb-4">
-									<div class="form-outline">
-										<input type="text" th:field="*{userId}" maxlength="20"
-												class="form-control mb-0"
-												th:classappend="${(userIdErrorList != null && userIdErrorList.size != 0) ? 'is-invalid':''}"/>
-										<label for="userId" class="form-label">User ID</label>
-									</div>
-									<th:block th:each="errorMessage : ${userIdErrorList}">
-										<p th:text="${errorMessage}" class="text-danger mt-0 mb-0"></p>
-									</th:block>
-								</div>
 									
 								<div class="mb-4">
 									<div class="form-outline">			 

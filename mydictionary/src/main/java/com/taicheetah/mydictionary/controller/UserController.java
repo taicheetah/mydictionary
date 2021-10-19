@@ -52,8 +52,7 @@ public class UserController {
 		
 		// in the case of involving invalid parameters
 		if(result.hasErrors()) {
-			
-			List<String> userIdErrorList = new ArrayList<String>();
+
 			List<String> userNameErrorList = new ArrayList<String>();
 			List<String> passwordErrorList = new ArrayList<String>();
 			List<String> eMailErrorList = new ArrayList<String>();
@@ -62,9 +61,7 @@ public class UserController {
 			// divide by input form
 			for(ObjectError error: result.getAllErrors()) {
 				
-				if(error.getDefaultMessage().startsWith("UserId")) {
-					userIdErrorList.add(error.getDefaultMessage());
-				} else if(error.getDefaultMessage().startsWith("UserName")) {
+				if(error.getDefaultMessage().startsWith("UserName")) {
 					userNameErrorList.add(error.getDefaultMessage());
 				} else if(error.getDefaultMessage().startsWith("Password")) {
 					passwordErrorList.add(error.getDefaultMessage());
@@ -75,7 +72,6 @@ public class UserController {
 				}
 			}
 			
-			theModel.addAttribute("userIdErrorList", userIdErrorList);
 			theModel.addAttribute("userNameErrorList", userNameErrorList);
 			theModel.addAttribute("passwordErrorList", passwordErrorList);
 			theModel.addAttribute("eMailErrorList", eMailErrorList);
@@ -84,13 +80,8 @@ public class UserController {
 			return "user/user-form";
 		}
 		
-		// in the case of the userID is already exist in DB
-		if(userService.findById(theUserForm.getUserId()) != null) {
-			List<String> userIdErrorList = new ArrayList<String>();
-			userIdErrorList.add("This user ID is already used.");
-			theModel.addAttribute("userIdErrorList", userIdErrorList);
-			return "user/user-form";
-		} else if(userService.findByEmail(theUserForm.getEmail()) != null){
+		// in the case of the mail address is already exist in DB
+		if(userService.findByEmail(theUserForm.getEmail()) != null){
 			List<String> eMailErrorList = new ArrayList<String>();
 			eMailErrorList.add("This Email address is already used.");
 			theModel.addAttribute("eMailErrorList", eMailErrorList);
@@ -102,8 +93,7 @@ public class UserController {
 			BCryptPasswordEncoder bEncoder = new BCryptPasswordEncoder();
 			String bcPassword = bEncoder.encode(theUserForm.getPassword());
 			
-			User theUser = new User(theUserForm.getUserId(),
-									theUserForm.getUsername(),
+			User theUser = new User(theUserForm.getUsername(),
 									bcPassword,
 									theUserForm.getEmail(),
 									theUserForm.getTimeZone(),

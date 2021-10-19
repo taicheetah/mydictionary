@@ -9,7 +9,7 @@ import javax.persistence.Embeddable;
 public class User_WordId implements Serializable{
 	
 	@Column(name="user_id")
-	private String userId;
+	private int userId;
 
 	@Column(name="word_name")
 	private String wordName;
@@ -19,21 +19,21 @@ public class User_WordId implements Serializable{
 		
 	}
 	
-	public User_WordId(String userId) {
+	public User_WordId(int userId) {
 		this.userId = userId;
 	}
 
-	public User_WordId(String userId, String wordName) {
+	public User_WordId(int userId, String wordName) {
 		this.userId = userId;
 		this.wordName = wordName;
 	}
 
 	
-	public String getUserId() {
+	public long getUserId() {
 		return userId;
 	}
 
-	public void setUserId(String userId) {
+	public void setUserId(int userId) {
 		this.userId = userId;
 	}
 
