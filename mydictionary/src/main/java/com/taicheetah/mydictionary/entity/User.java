@@ -28,8 +28,9 @@ import org.springframework.security.core.userdetails.UserDetails;
 public class User implements UserDetails {
 
 	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(name="user_id")
-	private String userId;
+	private int userId;
 	
 	@Column(name="user_name")
 	private String username;
@@ -55,8 +56,7 @@ public class User implements UserDetails {
 		
 	}
 
-	public User(String userId, String username, String password, String email, String timeZone, boolean enabled) {
-		this.userId = userId;
+	public User(String username, String password, String email, String timeZone, boolean enabled) {
 		this.username = username;
 		this.password = password;
 		this.email = email;
@@ -65,12 +65,11 @@ public class User implements UserDetails {
 	}
 
 
-	public String getUserId() {
+	public int getUserId() {
 		return userId;
 	}
 
-
-	public void setUserId(String userId) {
+	public void setUserId(int userId) {
 		this.userId = userId;
 	}
 
@@ -160,18 +159,6 @@ public class User implements UserDetails {
 		// TODO Auto-generated method stub
 		return true;
 	}
-	
-	// add convenience methods for bi-directional relationship
-//	public void add(User_Word tempUser_Word) {
-//		
-//		if(user_Words == null) {
-//			user_Words = new ArrayList<>();
-//		}
-//		
-//		user_Words.add(tempUser_Word);
-//		
-//		tempUser_Word.setUser(this);
-//	}
 
 	@Override
 	public String toString() {
