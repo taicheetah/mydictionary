@@ -3,6 +3,10 @@
 
 <head th:replace="head :: head_fragment(title='My Dictionary - Search Word')">
 </head>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script th:src="@{/js/search-word.js}"></script>
+</head>
 
 <body>
 
@@ -37,11 +41,14 @@
 				<form action="#" th:action="@{/word/register}" th:object="${word}" method="POST">
 					<hr>
 					<div class="mb-2">
-						<span th:text="*{wordName}" class="h1" th:if="*{wordName} != null"></span>
+						<h1 th:text="*{wordName}" class="h1" th:if="*{wordName} != null"></h1>
 						
-						<span th:text="'[' + *{phoneticSpelling}  + ']' " th:if="*{phoneticSpelling} != null"></span>
+						<span th:text="'[' + *{phoneticSpelling}  + ']&ensp;' " th:if="*{phoneticSpelling} != null"></span>
+						<button type="button" class="btn btn-sm btn-dark btn-floating" id="audio-button" th:if="*{audio_url} != null">
+								<i class="fas fa-play"></i>
+						</button>
+						<audio controls th:src="*{audio_url}" id="audio" th:if="*{audio_url} != null" style="display: none;"></audio>
 					</div>
-					<audio controls th:src="*{audio_url}" th:if="*{audio_url} != null"></audio>
 					
 					<ul style="list-style: none; padding-left: 0;">
 						<li th:each="tempDefinition : *{definitions}" class="mt-4" th:if="*{definitions} != null" >
