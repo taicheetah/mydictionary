@@ -18,12 +18,10 @@
 			<form action="#" th:action="@{/word/filter}" th:object="${filterForm}" method="GET"> 
 				<div class="row d-flex justify-content-center form-group">
 					<div class="col-md-4 ol-lg-4 col-xl-4 mb-2">
-					  <input type="text" th:field="*{filterWord}" class="form-control" placeholder="Word" aria-label="Search"
-					  aria-describedby="search-addon" />
+					  <input type="text" th:field="*{filterWord}" class="form-control" placeholder="Word" />
 					</div>
 					<div class="col-md-4 ol-lg-4 col-xl-4 mb-2">
-					  <input type="date" th:field="*{filterDate}" class="form-control" placeholder="Search" aria-label="Search"
-					  aria-describedby="search-addon" />
+					  <input type="date" th:field="*{filterDate}" class="form-control" placeholder="Search" />
 					</div>
 					<div class="col-md-4 ol-lg-4 col-xl-4 mb-2">
 						<select th:field="*{rememberFlg}" class="form-select" aria-label="Default select example">
