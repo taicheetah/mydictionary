@@ -26,4 +26,10 @@ $(function(){
 			$("[id^=definition]").fadeTo(1,1);
 		}
 	});
+	
+	$("[id^=audio-button]").click(function(){
+			$(this).next().get(0).play();
+			
+		}
+	);
 });	

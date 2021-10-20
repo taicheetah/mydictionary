@@ -41,22 +41,11 @@
 	</div>
 </div>
 	
-<div class="container mt-4 mb-5">	
+<div class="container mt-5 mb-5">
 	<form action="#" th:action="@{/word/update}" method="POST"> 
 		
 		<table class="table table-bordered table-striped">
 			<thead>
-				<tr style="border: 0px none;">
-					<th style="border: 0px none;">
-
-					</th>
-					<th style="border: 0px none;">
-					</th>
-					<th style="border: 0px none;">
-					</th>
-					<th style="border: 0px none;">
-					</th>
-				</tr>
 				<tr>
 					<th>
 						<span>Word</span>
@@ -100,9 +89,16 @@
 				<tr th:each="tempUser_Word, status : ${user.user_Words}">
 				
 					<td>
-						<h2 th:text="${tempUser_Word.word.wordName}" ></h2>
-						<p th:text="'[' + ${tempUser_Word.word.phoneticSpelling}  + ']' " />
-						<audio controls th:src="${tempUser_Word.word.audio_url}" th:if="*{tempUser_Word.word.audio_url}" ></audio>
+						<div style="min-height: 8em; min-width: 12em;">
+							<h2 th:text="${tempUser_Word.word.wordName}" ></h2>
+							<span th:text="'[' + ${tempUser_Word.word.phoneticSpelling}  + ']&nbsp;'"></span>
+							<!-- <i class="btn btn-link fas fa-play"></i> -->
+							<button type="button" class="btn btn-sm btn-dark btn-floating" th:id="'audio-button-' + ${status.index}" th:if="*{tempUser_Word.word.audio_url}">
+								<i class="fas fa-play"></i>
+							</button>
+							<audio controls th:src="${tempUser_Word.word.audio_url}" th:id="'audio-' + ${status.index}"
+									 th:if="*{tempUser_Word.word.audio_url}" style="display: none;"></audio>
+						</div>
 					</td>
 					<td>
 						<div th:id="definition + ${status.index}">
@@ -167,10 +163,10 @@
 		
 	</form>
 			
-			<a th:href="@{/word/showSearchWordForm}"
-				class="btn btn-secondary btn-sm mt-4 mb-4">
-				Move to search word
-			</a>
+	<a th:href="@{/word/showSearchWordForm}"
+		class="btn btn-secondary btn-sm mt-4 mb-4">
+		Move to search word
+	</a>
 </div>
 
 </body>
