@@ -99,7 +99,7 @@
 						</div>
 					</td>
 					<td>
-						<div th:id="definition + ${status.index}">
+						<div th:id="definition + ${status.index}" style="min-width: 20em;">
 							<div th:each="tempDefinition: ${tempUser_Word.word.definitions}" class="mb-4">
 								<p th:text="'[' + ${tempDefinition.definitionId.lexicalCategory}+ '] ' + ${tempDefinition.definition} " class="mb-1"></p>
 								<i th:text="'\'' + ${tempDefinition.example} + '\''" th:if="${not #strings.isEmpty(tempDefinition.example)}"></i>
