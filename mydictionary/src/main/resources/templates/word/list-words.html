@@ -112,7 +112,6 @@
 							</div>
 						</div>
 					</td>
-					<!-- <td th:text="${#dates.format(tempUser_Word.getZonedDateTime(user.timeZone), 'dd/MM/yyyy')}"/> -->
 					<td th:text="${tempUser_Word.getViewDateTime(user.timeZone)}"/>
 					<td>
 						<div class="form-check">
@@ -121,9 +120,6 @@
 						<input type="hidden" th:attr="name='user_Words[' + __${status.index}__ + '].user_WordId.userId'" th:value="${tempUser_Word.user_WordId.userId}" />
 						<input type="hidden" th:attr="name='user_Words[' + __${status.index}__ + '].user_WordId.wordName'" th:value="${tempUser_Word.user_WordId.wordName}" />
 					</td>
-					
-					<!-- Add update button/link -->
-					
 				</tr>
 			</tbody>
 	

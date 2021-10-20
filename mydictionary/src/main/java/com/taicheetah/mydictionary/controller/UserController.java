@@ -50,7 +50,7 @@ public class UserController {
 	@PostMapping("/registerUser")
 	public String saveUser(@Validated @ModelAttribute("user") UserForm theUserForm, BindingResult result, Model theModel) {
 		
-		// in the case of involving invalid parameters
+		// if involving invalid parameters
 		if(result.hasErrors()) {
 
 			List<String> userNameErrorList = new ArrayList<String>();

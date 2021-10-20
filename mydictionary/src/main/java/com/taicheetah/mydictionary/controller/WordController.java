@@ -94,6 +94,7 @@ public class WordController {
 		
 		session.setAttribute(SESSION_KEY_FILTER_FORM, theFilter);
 		
+		// initialise page setting
 		Pageable pageable = PageRequest.of(0, PAGE_SIZE, Sort.by(defaultSortAttribute).descending());
 		session.setAttribute(SESSION_KEY_PAGEABLE, pageable);
 		
@@ -106,6 +107,7 @@ public class WordController {
 		
 		for(User_Word tempUser_Word: theUser.getUser_Words()) {
 			User_Word dbUser_Word = user_wordService.findById(tempUser_Word.getUser_WordId());
+			// set rememberFlg from input data
 			dbUser_Word.setRememberFlg(tempUser_Word.isRememberFlg());
 			dbUser_Words.add(dbUser_Word);
 		}
@@ -141,11 +143,13 @@ public class WordController {
 	
 	private Page<User_Word> retrieveUser_Words(User theUser, FilterForm theFilter, Pageable pageable){
 		
+		// if the user didn't filter by date
 		if(StringUtils.isEmpty(theFilter.getFilterDate())) {
 			// invoke JPA query
 			if(theFilter.getRememberFlg() != null) {
 				return user_wordService.findAllWordsByUserIdAndRememberFlgAndWordNameContains(theUser.getUserId(), theFilter.getRememberFlg(), theFilter.getFilterWord(), pageable);
 			} else {
+				// if the user didn't filter by rememberFlg
 				return user_wordService.findAllWordsByUserIdAndWordNameContains(theUser.getUserId(), theFilter.getFilterWord(), pageable);
 			}
 		}
@@ -163,6 +167,7 @@ public class WordController {
 		if(theFilter.getRememberFlg() != null) {
 			return user_wordService.findAllWordsByUserIdAndRememberFlgAndDateTimeBetweenAndWordNameContains(theUser.getUserId(), theFilter.getRememberFlg(), startDate, endDate, theFilter.getFilterWord(), pageable);	
 		} else {
+			// if the user didn't filter by rememberFlg
 			return user_wordService.findAllWordsByUserIdAndDateTimeBetweenAndWordNameContains(theUser.getUserId(),startDate,endDate,theFilter.getFilterWord(),pageable );		
 		}
 	}
@@ -180,7 +185,7 @@ public class WordController {
 		
 		Word dbWord = wordService.findByWordName(wordName);
 		
-		// when the word exist in DB
+		// if the word already exists in DB
 		if(dbWord != null) {
 			theModel.addAttribute("word",dbWord);
 			
@@ -194,7 +199,6 @@ public class WordController {
 				response = oxfordDictionariesAPIService.search(wordName);
 			} catch (Exception e) {
 				// in the case of error except for 404
-				
 				theModel.addAttribute("errorMessage","Something wrong happend. Try again after a while.");
 				theModel.addAttribute("isAPIenabled",true);
 				
@@ -206,6 +210,7 @@ public class WordController {
 		Word theWord = new Word();
 		if(response != null && response.getResults() != null) {
 			
+			// set the wordName in theWord
 			theWord.setWordName(response.getWord());
 			
 			List<LexicalEntry> lexicalEntries = response.getResults().get(0).getLexicalEntries();
@@ -227,7 +232,7 @@ public class WordController {
 				String theDefinition = tempLexicalEntry.getEntries().get(0).getSenses().get(0).getDefinitions().get(0);
 				
 				String theExample = null;
-				// when examples exist
+				// if examples exist
 				if(tempLexicalEntry.getEntries().get(0).getSenses().get(0).getExamples() != null) {
 					// retrieve only first example
 					theExample = tempLexicalEntry.getEntries().get(0).getSenses().get(0).getExamples().get(0).getText();
@@ -262,7 +267,7 @@ public class WordController {
 			dbWord = wordService.save(theWord);
 		}
 		
-		// when the user does not register the word yet
+		// if the user does not register the word yet
 		if(user_wordService.findById(new User_WordId(theUser.getUserId(), dbWord.getWordName())) == null) {
 			
 			User_Word theUser_Word = new User_Word();
@@ -275,7 +280,7 @@ public class WordController {
 			
 			theModel.addAttribute("registerMessage", "registered");
 		} else {
-			// when the  user already registered the word
+			// if the user already registered the word
 			theModel.addAttribute("registerMessage", "'"+dbWord.getWordName()+"' is allready registered in your dictionary");
 		}
 

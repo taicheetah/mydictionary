@@ -81,7 +81,7 @@ public class OxfordDictionariesAPIServiceImpl implements OxfordDictionariesAPISe
 		return response;
 	}
 	
-	// json file to stringBuilder
+	// convert json file to stringBuilder
 	private StringBuilder retrieveJson(InputStream inputStream) throws IOException {
 		BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
 		StringBuilder stringBuilder = new StringBuilder();
