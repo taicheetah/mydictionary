@@ -203,11 +203,13 @@ public class WordController {
 		}
 		
 		
-		Word theWord = new Word(wordName);
+		Word theWord = new Word();
 		if(response != null && response.getResults() != null) {
 			
-			List<LexicalEntry> lexicalEntries = response.getResults().get(0).getLexicalEntries();
+			theWord.setWordName(response.getWord());
 			
+			List<LexicalEntry> lexicalEntries = response.getResults().get(0).getLexicalEntries();
+
 			// set the pronunciation in theWord
 			Pronunciation thePronunciation = lexicalEntries.get(0).getEntries().get(0).getPronunciations().get(0);
 			theWord.setPhoneticSpelling(thePronunciation.getPhoneticSpelling());
