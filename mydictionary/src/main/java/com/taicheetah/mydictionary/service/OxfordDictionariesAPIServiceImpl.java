@@ -66,7 +66,7 @@ public class OxfordDictionariesAPIServiceImpl implements OxfordDictionariesAPISe
 				
 			} else if(code == 404){
 				// when not finding the word, create response that involve nothing
-				logger.info("===> There is not" + wordName + "in Oxford dictionaries");
+				logger.info("===> There is not " + wordName + " in Oxford dictionaries");
 				response = new ResponseFromOxfordDictionariesAPI();
 			} else {
 				// when error except for 404 occurs, throw error that involve error message
