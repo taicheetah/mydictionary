@@ -90,7 +90,6 @@
 						<div style="min-height: 8em; min-width: 12em;">
 							<h2 th:text="${tempUser_Word.word.wordName}" ></h2>
 							<span th:text="'[' + ${tempUser_Word.word.phoneticSpelling}  + ']&nbsp;'"></span>
-							<!-- <i class="btn btn-link fas fa-play"></i> -->
 							<button type="button" class="btn btn-sm btn-dark btn-floating" th:id="'audio-button-' + ${status.index}" th:if="*{tempUser_Word.word.audio_url}">
 								<i class="fas fa-play"></i>
 							</button>
