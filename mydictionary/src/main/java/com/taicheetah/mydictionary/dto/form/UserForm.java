@@ -1,5 +1,13 @@
 package com.taicheetah.mydictionary.dto.form;
 
+import java.time.LocalDateTime;
+import java.time.ZoneId;
+import java.time.ZoneOffset;
+import java.time.ZonedDateTime;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.Map;
+
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
@@ -54,5 +62,36 @@ public class UserForm {
 		this.timeZone = timeZone;
 	}
 	
-	
+	public static Map<String, String> getAllZoneIdsAndItsOffSet() {
+
+	        Map<String, String> result = new HashMap<>();
+
+	        LocalDateTime localDateTime = LocalDateTime.now();
+
+	        for (String zoneId : ZoneId.getAvailableZoneIds()) {
+
+	            ZoneId id = ZoneId.of(zoneId);
+
+	            // LocalDateTime -> ZonedDateTime
+	            ZonedDateTime zonedDateTime = localDateTime.atZone(id);
+
+	            // ZonedDateTime -> ZoneOffset
+	            ZoneOffset zoneOffset = zonedDateTime.getOffset();
+
+	            //replace Z to +00:00
+	            String offset = zoneOffset.getId().replaceAll("Z", "+00:00");
+	            offset = String.format("(UTC%s)", offset);
+
+	            result.put(id.toString(), offset);
+
+	        }
+	        
+	        // sort by value, descending order
+	        Map<String, String> sortedMap = new LinkedHashMap<>();result.entrySet().stream()
+	                .sorted(Map.Entry.<String, String>comparingByValue().reversed())
+	                .forEachOrdered(e -> sortedMap.put(e.getKey(), e.getValue()));
+
+	        return sortedMap;
+
+	    }
 }
