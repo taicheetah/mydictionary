@@ -57,9 +57,6 @@ public class OxfordDictionariesAPIServiceImpl implements OxfordDictionariesAPISe
 				
 				logger.info(stringBuilder);
 				
-				// create Json For Mock
-				createJsonForMock(wordName, stringBuilder);
-				
 				ObjectMapper mapper = new ObjectMapper();
 				
 				response = mapper.readValue(stringBuilder.toString(), ResponseFromOxfordDictionariesAPI.class);
