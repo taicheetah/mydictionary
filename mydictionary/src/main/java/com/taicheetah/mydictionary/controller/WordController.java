@@ -7,6 +7,9 @@ import java.util.Date;
 import java.util.List;
 
 import javax.servlet.http.HttpSession;
+import javax.validation.ConstraintViolationException;
+import javax.validation.Valid;
+import javax.validation.constraints.Pattern;
 
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,14 +18,22 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.MissingServletRequestParameterException;
+import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseStatus;
+import org.springframework.web.server.ResponseStatusException;
+import org.springframework.web.servlet.ModelAndView;
 
 import com.taicheetah.mydictionary.dto.form.FilterForm;
 import com.taicheetah.mydictionary.dto.oxfordAPI.response.LexicalEntry;
@@ -40,6 +51,7 @@ import com.taicheetah.mydictionary.service.WordService;
 
 @Controller
 @RequestMapping("/word")
+@Validated
 public class WordController {
 	
 	@Value("${stubMode}")
@@ -68,8 +80,8 @@ public class WordController {
 	}
 	
 	@GetMapping("/list")
-	public String listWordsGet(@RequestParam("pageNumber")int pageNumber, @RequestParam("sortAttribute")String sortAttribute, @RequestParam("descending")boolean descending,
-							@AuthenticationPrincipal User loginUser, Model theModel) {
+	public String listWordsGet(@RequestParam("pageNumber")int pageNumber, @RequestParam("sortAttribute") @Pattern(regexp = "user_WordId.wordName|dateTime") String sortAttribute, 
+							@RequestParam("descending")boolean descending, @AuthenticationPrincipal User loginUser, Model theModel) {
 		
 		if(StringUtils.isEmpty(sortAttribute)){
 			sortAttribute = defaultSortAttribute;
@@ -90,7 +102,7 @@ public class WordController {
 	}
 	
 	@GetMapping("/filter")
-	public String listWordsFilter(@ModelAttribute("filter")FilterForm theFilter, @AuthenticationPrincipal User loginUser, Model theModel) {
+	public String listWordsFilter(@ModelAttribute("filter") @Valid FilterForm theFilter, @AuthenticationPrincipal User loginUser, Model theModel) {
 		
 		session.setAttribute(SESSION_KEY_FILTER_FORM, theFilter);
 		
@@ -289,5 +301,14 @@ public class WordController {
 
 		return "word/search-word";
 	}
-	
+
+    @ExceptionHandler(ConstraintViolationException.class)
+    public ModelAndView onValidationError(Exception ex) {
+		ModelAndView mav = new ModelAndView();
+    	mav.setStatus(HttpStatus.BAD_REQUEST);
+		mav.addObject("code", HttpStatus.BAD_REQUEST.value());
+		mav.addObject("message", "Bad request.");
+    	mav.setViewName("error");
+        return mav;
+    }
 }

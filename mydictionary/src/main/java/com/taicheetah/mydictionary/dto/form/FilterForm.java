@@ -1,9 +1,12 @@
 package com.taicheetah.mydictionary.dto.form;
 
+import javax.validation.constraints.Pattern;
+
 public class FilterForm {
 
 	private String filterWord;
 	
+	@Pattern(regexp = "^[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$|^$")
 	private String filterDate;
 	
 	private Boolean rememberFlg;
