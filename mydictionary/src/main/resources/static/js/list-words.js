@@ -1,7 +1,5 @@
 $(function(){
-	$("#hideDefinitionSwitch").prop('checked', true);
 	$("[id^=update]").prop('disabled', true);
-	$("[id^=definition]").fadeTo(1,0.05);
 	
 	$("[id^=rememberFlg]").change(function(){
 		$("[id^=update]").prop('disabled', false);
