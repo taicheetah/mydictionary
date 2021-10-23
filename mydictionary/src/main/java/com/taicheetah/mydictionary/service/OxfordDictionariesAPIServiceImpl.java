@@ -9,6 +9,7 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
+import org.apache.commons.collections.CollectionUtils;
 import org.jboss.logging.Logger;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
@@ -61,10 +62,13 @@ public class OxfordDictionariesAPIServiceImpl implements OxfordDictionariesAPISe
 				
 				response = mapper.readValue(stringBuilder.toString(), ResponseFromOxfordDictionariesAPI.class);
 				
+				if(CollectionUtils.isEmpty(response.getResults()) || CollectionUtils.isEmpty(response.getResults().get(0).getLexicalEntries())) {
+					throw new RuntimeException("file format error");
+				}
+
 			} else if(code == 404){
-				// when not finding the word, create response that involve nothing
+				// when not finding the word, return null
 				logger.info("===> There is not " + wordName + " in Oxford dictionaries");
-				response = new ResponseFromOxfordDictionariesAPI();
 			} else {
 				// when error except for 404 occurs, throw error that involve error message
 				StringBuilder stringBuilder = retrieveJson(urlConnection.getErrorStream());
@@ -73,8 +77,6 @@ public class OxfordDictionariesAPIServiceImpl implements OxfordDictionariesAPISe
 				
 				throw new RuntimeException(errorResponse.getError());
 			}
-					
-
 		
 		return response;
 	}

@@ -11,6 +11,7 @@ import javax.validation.ConstraintViolationException;
 import javax.validation.Valid;
 import javax.validation.constraints.Pattern;
 
+import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -36,9 +37,12 @@ import org.springframework.web.server.ResponseStatusException;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.taicheetah.mydictionary.dto.form.FilterForm;
+import com.taicheetah.mydictionary.dto.oxfordAPI.response.Entry;
 import com.taicheetah.mydictionary.dto.oxfordAPI.response.LexicalEntry;
 import com.taicheetah.mydictionary.dto.oxfordAPI.response.Pronunciation;
 import com.taicheetah.mydictionary.dto.oxfordAPI.response.ResponseFromOxfordDictionariesAPI;
+import com.taicheetah.mydictionary.dto.oxfordAPI.response.Result;
+import com.taicheetah.mydictionary.dto.oxfordAPI.response.Sense;
 import com.taicheetah.mydictionary.entity.Definition;
 import com.taicheetah.mydictionary.entity.DefinitionId;
 import com.taicheetah.mydictionary.entity.User;
@@ -218,48 +222,65 @@ public class WordController {
 			}
 		}
 		
+		// if return code is 404
+		if(response == null) {
+			theModel.addAttribute("errorMessage","There is not '" + wordName + "' in this dictionray.");
+			return "word/search-word";
+		}
 		
 		Word theWord = new Word();
-		if(response != null && response.getResults() != null) {
 			
-			// set the wordName in theWord
-			theWord.setWordName(response.getWord());
-			
-			List<LexicalEntry> lexicalEntries = response.getResults().get(0).getLexicalEntries();
+		// set the wordName in theWord
+		theWord.setWordName(response.getWord());
 
+		List<LexicalEntry> lexicalEntries = response.getResults().get(0).getLexicalEntries();
+
+		if(CollectionUtils.isNotEmpty(lexicalEntries.get(0).getEntries()) &&
+				CollectionUtils.isNotEmpty((lexicalEntries.get(0).getEntries().get(0).getPronunciations()))) {
 			// set the pronunciation in theWord
 			Pronunciation thePronunciation = lexicalEntries.get(0).getEntries().get(0).getPronunciations().get(0);
 			theWord.setPhoneticSpelling(thePronunciation.getPhoneticSpelling());
 			theWord.setAudio_url(thePronunciation.getAudioFile());
-
-			List<Definition> theDefinitions = new ArrayList<>();
+		}
+		
+		List<Definition> theDefinitions = new ArrayList<>();
+		
+		// retrieve the definition by lexical category
+		for(LexicalEntry tempLexicalEntry: lexicalEntries) {
 			
-			// retrieve the definition by lexical category
-			for(LexicalEntry tempLexicalEntry: lexicalEntries) {
-								
-				String theLexicalCategory = tempLexicalEntry.getLexicalCategory().getText();
-				DefinitionId theDefinitionId = new DefinitionId(theLexicalCategory);
-				
-				// retrieve only first definition
-				String theDefinition = tempLexicalEntry.getEntries().get(0).getSenses().get(0).getDefinitions().get(0);
-				
-				String theExample = null;
-				// if examples exist
-				if(tempLexicalEntry.getEntries().get(0).getSenses().get(0).getExamples() != null) {
-					// retrieve only first example
-					theExample = tempLexicalEntry.getEntries().get(0).getSenses().get(0).getExamples().get(0).getText();
-				}
-				theDefinitions.add(new Definition(theDefinitionId,theDefinition,theExample));
+			if(tempLexicalEntry.getLexicalCategory() == null ||
+					CollectionUtils.isEmpty(tempLexicalEntry.getEntries()) ||
+					CollectionUtils.isEmpty(tempLexicalEntry.getEntries().get(0).getSenses()) ||
+					CollectionUtils.isEmpty(tempLexicalEntry.getEntries().get(0).getSenses().get(0).getDefinitions())) {
+				continue;
 			}
 			
-			// set the definitions in theWord
-			theWord.setDefinitions(theDefinitions);
+			String theLexicalCategory = tempLexicalEntry.getLexicalCategory().getText();
+	
+			DefinitionId theDefinitionId = new DefinitionId(theLexicalCategory);
 			
-		} else if(response != null && response.getResults() == null){
-			// when 404
+			Sense tempSense = tempLexicalEntry.getEntries().get(0).getSenses().get(0);
+			
+			// retrieve only first definition
+			String theDefinition = tempSense.getDefinitions().get(0);
+			
+			String theExample = null;
+			// if examples exist
+			if(CollectionUtils.isNotEmpty(tempSense.getExamples())) {
+				// retrieve only first example
+				theExample = tempSense.getExamples().get(0).getText();
+			}
+			theDefinitions.add(new Definition(theDefinitionId,theDefinition,theExample));
+		}
+		
+		// if any definition doesn't exist
+		if(theDefinitions.isEmpty()) {
 			theModel.addAttribute("errorMessage","There is not '" + wordName + "' in this dictionray.");
 			return "word/search-word";
 		}
+		
+		// set the definitions in theWord
+		theWord.setDefinitions(theDefinitions);
 		
 		theModel.addAttribute("word",theWord);
 		
