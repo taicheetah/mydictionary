@@ -58,8 +58,8 @@
 					</ul>
 					
 					<input type="hidden" th:field="*{wordName}" />
-					<input type="hidden" th:field="*{phoneticSpelling}" />
-					<input type="hidden" th:field="*{audio_url}" />
+					<input type="hidden" th:field="*{phoneticSpelling}" th:if="*{phoneticSpelling} != null"/>
+					<input type="hidden" th:field="*{audio_url}" th:if="*{audio_url} != null" />
 					
 		 			<th:block th:each="tempDefinition, status : *{definitions}" th:if="*{definitions} !=null">
 		 				<input type="hidden" th:attr="name='definitions[' + __${status.index}__ + '].definitionId.lexicalCategory'" th:value="${tempDefinition.definitionId.lexicalCategory}" />

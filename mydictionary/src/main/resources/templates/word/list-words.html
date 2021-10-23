@@ -89,12 +89,12 @@
 					<td>
 						<div style="min-height: 8em; min-width: 12em;">
 							<h2 th:text="${tempUser_Word.word.wordName}" ></h2>
-							<span th:text="'[' + ${tempUser_Word.word.phoneticSpelling}  + ']&nbsp;'"></span>
-							<button type="button" class="btn btn-sm btn-dark btn-floating" th:id="'audio-button-' + ${status.index}" th:if="*{tempUser_Word.word.audio_url}">
+							<span th:text="'[' + ${tempUser_Word.word.phoneticSpelling}  + ']&nbsp;'" th:if="${not #strings.isEmpty(tempUser_Word.word.phoneticSpelling)}"></span>
+							<button type="button" class="btn btn-sm btn-dark btn-floating" th:id="'audio-button-' + ${status.index}" th:if="${not #strings.isEmpty(tempUser_Word.word.audio_url)}">
 								<i class="fas fa-play"></i>
 							</button>
 							<audio controls th:src="${tempUser_Word.word.audio_url}" th:id="'audio-' + ${status.index}"
-									 th:if="*{tempUser_Word.word.audio_url}" style="display: none;"></audio>
+									 th:if="${tempUser_Word.word.audio_url}" style="display: none;"></audio>
 						</div>
 					</td>
 					<td>
