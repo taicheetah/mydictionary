@@ -117,6 +117,8 @@ public class OxfordDictionariesAPIServiceImpl implements OxfordDictionariesAPISe
 	@Override
 	public ResponseFromOxfordDictionariesAPI searchStub(String wordName) {
 		
+		wordName = wordName.replace(" ", "_");
+		
 		ObjectMapper mapper = new ObjectMapper();
 		
 		ResponseFromOxfordDictionariesAPI response = new ResponseFromOxfordDictionariesAPI();
