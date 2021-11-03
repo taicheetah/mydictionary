@@ -8,6 +8,6 @@ public class MyDictionayController {
 
 	@GetMapping("/")
 	public String index() {
-		return "redirect:/word/list?pageNumber=0&sortAttribute=dateTime&descending=true";
+		return "redirect:/word/showSearchWordForm";
 	}
 }
