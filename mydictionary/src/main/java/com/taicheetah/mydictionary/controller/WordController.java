@@ -229,48 +229,69 @@ public class WordController {
 		}
 		
 		Word theWord = new Word();
+		List<Definition> theDefinitions = new ArrayList<>();
+		
+		// it is used to prevent repeating same category
+		List<String> lexicalCategoryList= new ArrayList<>();
 			
 		// set the wordName in theWord
 		theWord.setWordName(response.getWord());
-
-		List<LexicalEntry> lexicalEntries = response.getResults().get(0).getLexicalEntries();
-
-		if(CollectionUtils.isNotEmpty(lexicalEntries.get(0).getEntries()) &&
-				CollectionUtils.isNotEmpty((lexicalEntries.get(0).getEntries().get(0).getPronunciations()))) {
+		
+		for(Result tempResult : response.getResults()) {
+			
 			// set the pronunciation in theWord
-			Pronunciation thePronunciation = lexicalEntries.get(0).getEntries().get(0).getPronunciations().get(0);
-			theWord.setPhoneticSpelling(thePronunciation.getPhoneticSpelling());
-			theWord.setAudio_url(thePronunciation.getAudioFile());
-		}
-		
-		List<Definition> theDefinitions = new ArrayList<>();
-		
-		// retrieve the definition by lexical category
-		for(LexicalEntry tempLexicalEntry: lexicalEntries) {
-			
-			if(tempLexicalEntry.getLexicalCategory() == null ||
-					CollectionUtils.isEmpty(tempLexicalEntry.getEntries()) ||
-					CollectionUtils.isEmpty(tempLexicalEntry.getEntries().get(0).getSenses()) ||
-					CollectionUtils.isEmpty(tempLexicalEntry.getEntries().get(0).getSenses().get(0).getDefinitions())) {
-				continue;
+			// retrieve just one pronunciation because all pronunciations would be same
+			if(theWord.getPhoneticSpelling() == null) {
+				List<LexicalEntry> lexicalEntries = tempResult.getLexicalEntries();
+				for(LexicalEntry tempLexicalEntry : lexicalEntries) {
+					if(tempLexicalEntry.getEntries() == null) continue;
+					for(Entry tempEntry : tempLexicalEntry.getEntries()) {
+						if(tempEntry.getPronunciations() == null) continue;
+						for(Pronunciation tempPronunciation : tempEntry.getPronunciations()) {
+							theWord.setPhoneticSpelling(tempPronunciation.getPhoneticSpelling());
+							theWord.setAudio_url(tempPronunciation.getAudioFile());
+							break;
+						}
+						if(theWord.getPhoneticSpelling() != null) break;
+					}
+					if(theWord.getPhoneticSpelling() != null) break;
+				}
 			}
 			
-			String theLexicalCategory = tempLexicalEntry.getLexicalCategory().getText();
-	
-			DefinitionId theDefinitionId = new DefinitionId(theLexicalCategory);
-			
-			Sense tempSense = tempLexicalEntry.getEntries().get(0).getSenses().get(0);
-			
-			// retrieve only first definition
-			String theDefinition = tempSense.getDefinitions().get(0);
-			
-			String theExample = null;
-			// if examples exist
-			if(CollectionUtils.isNotEmpty(tempSense.getExamples())) {
-				// retrieve only first example
-				theExample = tempSense.getExamples().get(0).getText();
+			// retrieve the definition by lexical category
+			for(LexicalEntry tempLexicalEntry: tempResult.getLexicalEntries()) {
+				
+				if(tempLexicalEntry.getLexicalCategory() == null ||
+						CollectionUtils.isEmpty(tempLexicalEntry.getEntries()) ||
+						CollectionUtils.isEmpty(tempLexicalEntry.getEntries().get(0).getSenses()) ||
+						CollectionUtils.isEmpty(tempLexicalEntry.getEntries().get(0).getSenses().get(0).getDefinitions())) {
+					continue;
+				}
+				
+				String theLexicalCategory = tempLexicalEntry.getLexicalCategory().getText();
+				
+				// in the case of coming same category again
+				if(lexicalCategoryList.contains(theLexicalCategory)) {
+					continue;
+				}
+				
+				lexicalCategoryList.add(theLexicalCategory);
+		
+				DefinitionId theDefinitionId = new DefinitionId(theLexicalCategory);
+				
+				Sense tempSense = tempLexicalEntry.getEntries().get(0).getSenses().get(0);
+				
+				// retrieve only first definition
+				String theDefinition = tempSense.getDefinitions().get(0);
+				
+				String theExample = null;
+				// if examples exist
+				if(CollectionUtils.isNotEmpty(tempSense.getExamples())) {
+					// retrieve only first example
+					theExample = tempSense.getExamples().get(0).getText();
+				}
+				theDefinitions.add(new Definition(theDefinitionId,theDefinition,theExample));
 			}
-			theDefinitions.add(new Definition(theDefinitionId,theDefinition,theExample));
 		}
 		
 		// if any definition doesn't exist
