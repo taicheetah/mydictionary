@@ -12,76 +12,38 @@
 <body>
 <div th:replace="header :: header_fragment(wordList)"></div>
 
+<div class="container mt-5">
+	<div class="row d-flex justify-content-center text-center">
+		<div class="col-10 col-md-10 col-lg-9 col-xl-9">	
+			<form action="#" th:action="@{/word/filter}" th:object="${filterForm}" method="GET"> 
+				<div class="row d-flex justify-content-center form-group">
+					<div class="col-md-4 ol-lg-4 col-xl-4 mb-2">
+					  <input type="text" th:field="*{filterWord}" class="form-control" placeholder="Word" />
+					</div>
+					<div class="col-md-4 ol-lg-4 col-xl-4 mb-2">
+					  <input type="date" th:field="*{filterDate}" class="form-control" placeholder="Search" />
+					</div>
+					<div class="col-md-4 ol-lg-4 col-xl-4 mb-2">
+						<select th:field="*{rememberFlg}" class="form-select" aria-label="Default select example">
+						  <option value=false>Not remember</option>
+						  <option value=true>Remember</option>
+						  <option value="">Both</option>
+						</select>
+					</div>
+				</div>
+				<button type="submit" class="btn btn-primary mt-3">
+				    <i class="fa fa-filter"></i>
+				</button>
+			</form>
+		</div>
+	</div>
+</div>
+	
 <div class="container mt-5 mb-5">
-		
-	<form action="#" th:action="@{/word/filter}" th:object="${filterForm}" method="GET"> 
-	
-		<button
-		  class="btn btn-sm btn-primary"
-		  type="button"
-		  data-mdb-toggle="collapse"
-		  data-mdb-target="#collapseFilter"
-		  aria-expanded="false"
-		  aria-controls="collapseExample"
-		>
-		  <i class="fa fa-filter"></i>
-		</button>
-
-		<div class="collapse mt-3" id="collapseFilter">
-			<table class="table table-borderless mb-0">
-				<tbody>
-					<tr>
-						<td>
-							<div class="input-group rounded mb-2">
-							  <input type="text" th:field="*{filterWord}" class="form-control rounded" placeholder="Word" aria-label="Search"
-							  aria-describedby="search-addon" />
-							</div>
-						</td>
-						<td>
-							<div class="input-group rounded mb-2">
-							  <input type="date" th:field="*{filterDate}" class="form-control rounded" placeholder="Search" aria-label="Search"
-							  aria-describedby="search-addon" />
-							</div>
-						</td>
-						<td>
-							<div class="input-group rounded mb-2">
-							<select th:field="*{rememberFlg}" class="form-select" aria-label="Default select example">
-							  <option value=false>Not remember</option>
-							  <option value=true>Remember</option>
-							  <option value="">Both</option>
-							</select>
-							</div>
-						</td>
-						<td>
-							<button type="submit" class="btn btn-primary">
-							    Filter  <i class="fa fa-filter"></i>
-							</button>
-						</td>
-					</tr>
-				</tbody>
-			</table>	
-		</div>
-	</form>
-		
 	<form action="#" th:action="@{/word/update}" method="POST"> 
-	
-		<div class="col-md-12 text-center mt-2 mb-1">
-			<button type="submit" name="Update" class="btn btn-warning">Update</button>
-		</div>
 		
 		<table class="table table-bordered table-striped">
 			<thead>
-				<tr style="border: 0px none;">
-					<th style="border: 0px none;">
-
-					</th>
-					<th style="border: 0px none;">
-					</th>
-					<th style="border: 0px none;">
-					</th>
-					<th style="border: 0px none;">
-					</th>
-				</tr>
 				<tr>
 					<th>
 						<span>Word</span>
@@ -125,30 +87,32 @@
 				<tr th:each="tempUser_Word, status : ${user.user_Words}">
 				
 					<td>
-						<h2 th:text="${tempUser_Word.word.wordName}" ></h2>
-						<p th:text="'[' + ${tempUser_Word.word.phoneticSpelling}  + ']' " />
-						<audio controls th:src="${tempUser_Word.word.audio_url}" th:if="*{tempUser_Word.word.audio_url}" ></audio>
+						<div style="min-height: 8em; min-width: 12em;">
+							<h2 th:text="${tempUser_Word.word.wordName}" ></h2>
+							<span th:text="'[' + ${tempUser_Word.word.phoneticSpelling}  + ']&nbsp;'" th:if="${not #strings.isEmpty(tempUser_Word.word.phoneticSpelling)}"></span>
+							<button type="button" class="btn btn-sm btn-dark btn-floating" th:id="'audio-button-' + ${status.index}" th:if="${not #strings.isEmpty(tempUser_Word.word.audio_url)}">
+								<i class="fas fa-play"></i>
+							</button>
+							<audio controls th:src="${tempUser_Word.word.audio_url}" th:id="'audio-' + ${status.index}"
+									 th:if="${tempUser_Word.word.audio_url}" style="display: none;"></audio>
+						</div>
 					</td>
 					<td>
-						<div th:id="definition + ${status.index}">
+						<div th:id="definition + ${status.index}" style="min-width: 20em;">
 							<div th:each="tempDefinition: ${tempUser_Word.word.definitions}" class="mb-4">
 								<p th:text="'[' + ${tempDefinition.definitionId.lexicalCategory}+ '] ' + ${tempDefinition.definition} " class="mb-1"></p>
 								<i th:text="'\'' + ${tempDefinition.example} + '\''" th:if="${not #strings.isEmpty(tempDefinition.example)}"></i>
 							</div>
 						</div>
 					</td>
-					<!-- <td th:text="${#dates.format(tempUser_Word.getZonedDateTime(user.timeZone), 'dd/MM/yyyy')}"/> -->
 					<td th:text="${tempUser_Word.getViewDateTime(user.timeZone)}"/>
 					<td>
 						<div class="form-check">
-							<input type="checkbox" class="form-check-input" th:attr="name='user_Words[' + __${status.index}__ + '].rememberFlg'" th:checked="${tempUser_Word.rememberFlg}" style="cursor: pointer;"/>
+							<input type="checkbox" class="form-check-input" th:attr="name='user_Words[' + __${status.index}__ + '].rememberFlg'" th:checked="${tempUser_Word.rememberFlg}" th:id="'rememberFlg-' + ${status.index}" style="cursor: pointer;"/>
 						</div>
 						<input type="hidden" th:attr="name='user_Words[' + __${status.index}__ + '].user_WordId.userId'" th:value="${tempUser_Word.user_WordId.userId}" />
 						<input type="hidden" th:attr="name='user_Words[' + __${status.index}__ + '].user_WordId.wordName'" th:value="${tempUser_Word.user_WordId.wordName}" />
 					</td>
-					
-					<!-- Add update button/link -->
-					
 				</tr>
 			</tbody>
 	
@@ -191,15 +155,15 @@
 		
 				
 		<div class="col-md-12 text-center mt-2 mb-1">
-			<button type="submit" name="Update" class="btn btn-warning">Update</button>
+			<button type="submit" name="Update" class="btn btn-warning" id="update-bottom">Update</button>
 		</div>
 		
 	</form>
 			
-			<a th:href="@{/word/showSearchWordForm}"
-				class="btn btn-secondary btn-sm mt-4 mb-4">
-				Move to search word
-			</a>
+	<a th:href="@{/word/showSearchWordForm}"
+		class="btn btn-secondary btn-sm mt-4 mb-4">
+		Move to search word
+	</a>
 </div>
 
 </body>

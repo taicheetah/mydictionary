@@ -6,6 +6,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Pointcut;
 import org.aspectj.lang.reflect.MethodSignature;
 import org.jboss.logging.Logger;
 import org.springframework.data.domain.Page;
@@ -17,7 +18,13 @@ public class LoggingAspect {
 	
 	private static Logger logger = Logger.getLogger(LoggingAspect.class.getName());
 	
-	@Around("execution(* com.taicheetah.mydictionary.service.*.*(..))")
+	@Pointcut("execution(* com.taicheetah.mydictionary.service.*.*(..))")
+	public void pointcutService() {};
+	
+	@Pointcut("execution(* com.taicheetah.mydictionary.service.UserDetailsServiceImpl.*(..))")
+	public void pointcutUserDetailsService() {};
+	
+	@Around("pointcutService() && ! pointcutUserDetailsService()")
 	public Object aroundService(ProceedingJoinPoint theProceedingJoinPoint) throws Throwable {
 		
 		// method name

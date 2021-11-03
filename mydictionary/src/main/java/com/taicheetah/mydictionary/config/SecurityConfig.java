@@ -31,6 +31,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 				.loginPage("/user/showLoginPage")
 				.loginProcessingUrl("/authenticateTheUser")
 				.defaultSuccessUrl("/word/list?pageNumber=0&sortAttribute=dateTime&descending=true")
+				.usernameParameter("email")
 				.permitAll()
 			.and()
 			.logout().permitAll();

@@ -9,6 +9,7 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
+import org.apache.commons.collections.CollectionUtils;
 import org.jboss.logging.Logger;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
@@ -57,16 +58,17 @@ public class OxfordDictionariesAPIServiceImpl implements OxfordDictionariesAPISe
 				
 				logger.info(stringBuilder);
 				
-				// create Json For Mock
-				createJsonForMock(wordName, stringBuilder);
-				
 				ObjectMapper mapper = new ObjectMapper();
 				
 				response = mapper.readValue(stringBuilder.toString(), ResponseFromOxfordDictionariesAPI.class);
 				
+				if(CollectionUtils.isEmpty(response.getResults()) || CollectionUtils.isEmpty(response.getResults().get(0).getLexicalEntries())) {
+					throw new RuntimeException("file format error");
+				}
+
 			} else if(code == 404){
-				// when not finding the word, create response that involve nothing
-				response = new ResponseFromOxfordDictionariesAPI();
+				// when not finding the word, return null
+				logger.info("===> There is not " + wordName + " in Oxford dictionaries");
 			} else {
 				// when error except for 404 occurs, throw error that involve error message
 				StringBuilder stringBuilder = retrieveJson(urlConnection.getErrorStream());
@@ -75,13 +77,11 @@ public class OxfordDictionariesAPIServiceImpl implements OxfordDictionariesAPISe
 				
 				throw new RuntimeException(errorResponse.getError());
 			}
-					
-
 		
 		return response;
 	}
 	
-	// json file to stringBuilder
+	// convert json file to stringBuilder
 	private StringBuilder retrieveJson(InputStream inputStream) throws IOException {
 		BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
 		StringBuilder stringBuilder = new StringBuilder();
@@ -116,6 +116,8 @@ public class OxfordDictionariesAPIServiceImpl implements OxfordDictionariesAPISe
 	
 	@Override
 	public ResponseFromOxfordDictionariesAPI searchStub(String wordName) {
+		
+		wordName = wordName.replace(" ", "_");
 		
 		ObjectMapper mapper = new ObjectMapper();
 		

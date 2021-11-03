@@ -1,6 +1,9 @@
 $(function(){
-	$("#hideDefinitionSwitch").prop('checked', true);
-	$("[id^=definition]").fadeTo(1,0.05);
+	$("[id^=update]").prop('disabled', true);
+	
+	$("[id^=rememberFlg]").change(function(){
+		$("[id^=update]").prop('disabled', false);
+	});
 	
 	
 	$("[id^=definition]").hover(
@@ -21,4 +24,10 @@ $(function(){
 			$("[id^=definition]").fadeTo(1,1);
 		}
 	});
+	
+	$("[id^=audio-button]").click(function(){
+			$(this).next().get(0).play();
+			
+		}
+	);
 });	

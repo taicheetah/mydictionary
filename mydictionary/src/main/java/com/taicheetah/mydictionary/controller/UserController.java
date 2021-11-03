@@ -1,7 +1,14 @@
 package com.taicheetah.mydictionary.controller;
 
+import java.time.LocalDateTime;
+import java.time.ZoneId;
+import java.time.ZoneOffset;
+import java.time.ZonedDateTime;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
@@ -40,7 +47,6 @@ public class UserController {
 	public String showSaveUserForm(Model theModel) {
 		
 		UserForm theUserForm = new UserForm();
-		
 		theModel.addAttribute("user", theUserForm);
 		
 		return "user/user-form";
@@ -50,7 +56,7 @@ public class UserController {
 	@PostMapping("/registerUser")
 	public String saveUser(@Validated @ModelAttribute("user") UserForm theUserForm, BindingResult result, Model theModel) {
 		
-		// in the case of involving invalid parameters
+		// if involving invalid parameters
 		if(result.hasErrors()) {
 
 			List<String> userNameErrorList = new ArrayList<String>();
@@ -80,11 +86,21 @@ public class UserController {
 			return "user/user-form";
 		}
 		
+		// in the case of wrong timezone was put
+		if(!UserForm.getAllZoneIdsAndItsOffSet().containsKey(theUserForm.getTimeZone())) {
+			List<String> timezoneErrorList = new ArrayList<String>();
+			timezoneErrorList.add("You entered wrong timezone.");
+			theModel.addAttribute("timezoneErrorList", timezoneErrorList);
+			
+			return "user/user-form";
+		}
+		
 		// in the case of the mail address is already exist in DB
 		if(userService.findByEmail(theUserForm.getEmail()) != null){
 			List<String> eMailErrorList = new ArrayList<String>();
 			eMailErrorList.add("This Email address is already used.");
 			theModel.addAttribute("eMailErrorList", eMailErrorList);
+			
 			return "user/user-form";
 			
 		} else {
