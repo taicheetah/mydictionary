@@ -30,7 +30,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 			.formLogin()
 				.loginPage("/user/showLoginPage")
 				.loginProcessingUrl("/authenticateTheUser")
-				.defaultSuccessUrl("/word/list?pageNumber=0&sortAttribute=dateTime&descending=true")
+				.defaultSuccessUrl("/word/showSearchWordForm")
 				.usernameParameter("email")
 				.permitAll()
 			.and()
