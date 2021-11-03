@@ -1,5 +1,5 @@
 # mydictionary
-https://user-images.githubusercontent.com/45550613/140232012-5944f432-663d-416c-b70e-247dfa059372.gif
+![result2](https://user-images.githubusercontent.com/45550613/140232736-f992a95b-de53-4d42-a906-4348e881cce0.gif)
 
 You can use this application from [here](https://tc-mydictionary.herokuapp.com).  
 【Test user】  
