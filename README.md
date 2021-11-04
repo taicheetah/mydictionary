@@ -50,4 +50,4 @@ I have experience of Spring boot and wanted organise knowledge of it. That's why
 This application uses [Oxford Dictionaries API](https://developer.oxforddictionaries.com/).
 
 ## ER diagram
-
+<img width="510" alt="Screenshot 2021-11-04 at 16 34 34" src="https://user-images.githubusercontent.com/45550613/140381952-b148306c-5b88-49d8-b82a-620b6006230e.png">
