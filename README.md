@@ -22,9 +22,9 @@ Third, I had never released my application to the public, so I wanted have such 
 ## What did I learn from the application?
 - Managing Time Zones
 - Managing Pagination
-- Managing Entity relationships
+- Managing Entity relationships using JPA
 - Managing BootStrap
-- How to change　specific properties like datasource url depending on environment
+- How to change specific properties like datasource url depending on environment
 - How to use container-based cloud Platform as a Service like Heroku
 
 ## Built with
@@ -48,3 +48,6 @@ I have experience of Spring boot and wanted organise knowledge of it. That's why
 
 ### Where does the application bring words and definitions from?
 This application uses [Oxford Dictionaries API](https://developer.oxforddictionaries.com/).
+
+## ER diagram
+
